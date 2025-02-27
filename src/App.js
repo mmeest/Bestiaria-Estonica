@@ -10,7 +10,7 @@ import store from './store'; // Importige oma Reduxi store
 function App() {
   return (
     <Provider store={store}>  {/* Ümbritse rakendus Provider'iga */}
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<Layout />}>
             <Route index element={<Home />} />
