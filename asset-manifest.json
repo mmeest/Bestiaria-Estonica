@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Bestiaria-Estonica/static/css/main.ef78c8ea.css",
-    "main.js": "/Bestiaria-Estonica/static/js/main.aa6c3078.js",
+    "main.js": "/Bestiaria-Estonica/static/js/main.d51edfdc.js",
     "static/js/453.91527082.chunk.js": "/Bestiaria-Estonica/static/js/453.91527082.chunk.js",
     "static/media/021.jpg": "/Bestiaria-Estonica/static/media/021.86904a2ef05c407aba9a.jpg",
     "static/media/019.jpg": "/Bestiaria-Estonica/static/media/019.4c957856c1df78a831b3.jpg",
@@ -30,11 +30,11 @@
     "static/media/logo.svg": "/Bestiaria-Estonica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Bestiaria-Estonica/index.html",
     "main.ef78c8ea.css.map": "/Bestiaria-Estonica/static/css/main.ef78c8ea.css.map",
-    "main.aa6c3078.js.map": "/Bestiaria-Estonica/static/js/main.aa6c3078.js.map",
+    "main.d51edfdc.js.map": "/Bestiaria-Estonica/static/js/main.d51edfdc.js.map",
     "453.91527082.chunk.js.map": "/Bestiaria-Estonica/static/js/453.91527082.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ef78c8ea.css",
-    "static/js/main.aa6c3078.js"
+    "static/js/main.d51edfdc.js"
   ]
 }
