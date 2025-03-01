@@ -28,6 +28,12 @@ const Detail = () => {
                     <p className='font-bold text-3xl text-center'>
                         {detail.price}
                     </p>
+                    <p className='font-bold text-3l text-center text-blue-500'>
+                        {detail.protection}
+                    </p>
+                    <p className='font-bold text-3xl text-center'>
+                        {detail.price}
+                    </p>
                     <p>
                         <div
                             dangerouslySetInnerHTML={{
