@@ -19,7 +19,7 @@ const Detail = () => {
     return (
         <div>
             <h2 className='text-3xl text-center' style={{ fontFamily: 'Metamorphous, sans-serif' }}>DETAILNE KIRJELDUS:</h2>
-            <div className='grid grid-cols-2 gap-5 mt-5'>
+            <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-5'>
                 <div>
                     <img src={detail.image} alt="" className='w-full'/>
                 </div>

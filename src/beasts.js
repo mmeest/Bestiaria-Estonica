@@ -24,6 +24,13 @@ import imageBeast020 from './assets/images/020.jpg'
 import imageBeast021 from './assets/images/021.jpg'
 import imageBeast022 from './assets/images/022.jpg'
 import imageBeast023 from './assets/images/023.jpg'
+
+import imageBeast024 from './assets/images/024.jpg'
+import imageBeast025 from './assets/images/025.jpg'
+import imageBeast026 from './assets/images/026.jpg'
+import imageBeast027 from './assets/images/027.jpg'
+import imageBeast028 from './assets/images/028.jpg'
+import imageBeast029 from './assets/images/029.jpg'
 export const beasts = [
     {
         id: 1,
@@ -838,5 +845,180 @@ export const beasts = [
                 Põhjakonn esindab looduse karmust ja on tihti seotud looduse elementidega, mis viitavad külma talve võimule ja tormide korraldamisele. Kui Põhjakonn on kohal, muudab ta maastikku, tekitades külma, jää, tuule ja tiheda lumetormi.
                 Tema omadus on valitsev talveperioodide üle, tuues talviste tormide ja jääkülma elu hinge hingust.`,
         slug: 'põhjakonn'
+    },
+    {
+        id: 24,
+        name: 'Koerakoonlane',
+        price: '***',
+        protection: 'Otsisid koerakoonlased kedagi taga, ühtlasi jälgi nuusutades, oli vanal ajal ainus abinõu nende käest pääsmiseks pastlaid, viiske või kingi tagurpidi jalga panna ja nii edasi minna, ehk aga ülepea paljajalu tagurpidi käia. Sedaviisi saatis tagaotsitav tagaotsija eksiteele: tagaotsija läks tagaotsitavat vastupidisest küljest otsima. Mõnd vaimlist olevustki, kelle tagakiusamist kardeti, juhiti tagurpidi käies vääradele jälgedele.',
+        image: imageBeast024,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Koerakoonlane on Eesti mütoloogias ja rahvajuttudes tuntud olend – pool inimene, pool koer. Ta on kirjeldatud kui ohtlik ja metsik olend, kellel on inimese keha, kuid koera- või hunditaoline pea koos teravate hammaste ja ulguvate häältega. Mõnes loos on tal ka karvane keha, teravad küünised ja hõõguvad silmad, mis muudavad ta veelgi hirmuäratavamaks.
+
+        Koerakoonlasi peeti sageli vaenulikeks ja verejanulisteks olenditeks, kes ründasid inimesi ja tekitasid hirmu. Neid on Eesti muistendites kujutatud ka kui kaugetest maadest pärit metsikut rahvast, kes ei rääkinud arusaadavat keelt ja elas röövimisest ning hävitustööst. Mõnikord arvati, et nad elavad idapoolsetes metsades või kaugel tundmatutel aladel, kust nad aeg-ajalt rüüsteretkedele saabusid.
+
+        Rahvapärimustes on Koerakoonlasi mõnikord samastatud välismaiste sissetungijatega, kelle välimust ja käitumist vanad eestlased ei mõistnud. Samuti on mõned teadurid spekuleerinud, et legendid võisid olla mõjutatud ajaloolistest sõdadest ja rändrahvastest, keda kohalikud pidasid "koerakoonlasteks" nende julmuse või erineva välimuse tõttu.
+
+        Hoolimata hirmutavast mainest, esineb Koerakoonlane mõnes loos ka traagilise tegelasena – näiteks kui olend, kes on needuse all või kellel on inimese süda, kuid koera välimus, ning kes otsib lunastust või mõistmist.`,
+        slug: 'koerakoonlane'
+    },
+    {
+        id: 25,
+        name: 'Sorts',
+        price: '***',
+        image: imageBeast025,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Sorts on Eesti mütoloogias ja rahvapärimustes tuntud maagiliste võimetega tegelane, keda võib pidada nõia, musta maagia valdaja või isegi deemonliku olendi sarnaseks. Sorts ei ole tavaline tark või nõid, vaid pigem kurjakuulutav tegelane, kelle eesmärk on sageli teistele kahju teha või oma võimu suurendada.
+        Sortsi välimus ja käitumine
+
+        Sortsi kujutatakse tavaliselt vanema mehena, kellel on pikad, sasitud juuksed ja habetunud nägu. Tema silmad on sageli kirjeldatud kui õelad ja helkivad, justkui kannaksid need tumedat võlujõudu. Ta riietub musta või tumedatesse rüüdesse, mis on kulunud ja täis salapäraseid sümboleid. Mõnes loos on tal ka kaasas puust või luust valmistatud sau, mille abil ta loitse lausub.
+
+        Sortsid tegutsevad enamasti öösiti ja hoiduvad avalikest kohtadest, eelistades üksildasi paiku nagu sügavad metsad, rabamaastikud või mahajäetud talud. Sageli on nad seotud ka tormide ja halbade ilmastikutingimustega – näiteks võib Sorts tekitada rahet, äikest või tugevaid torme, et põldusid hävitada või talupidajaid karistada.
+        Sortsi võimed ja teod
+
+        Sortsid on tuntud oma oskuse poolest saata inimestele ja loomadele needusi. Nad võivad:
+
+            põhjustada kariloomade haigestumist või isegi surma;
+            rikkuda põllusaaki, tekitades rahet või kuiva põuda;
+            muuta end nähtamatuks või moonduda loomaks, näiteks mustaks kassiks või suureks ronkaks;
+            varastada või nõiduda naabrite varandust enda kasuks.
+
+        Mõnes loos on Sorts seotud ka Vanakuradi ehk Saatanaga – arvatakse, et Sorts võib olla oma hinge kuradile müünud, et saada võluvõimed ja pika elu, kuid selle eest peab ta kurja tegema ja hinge lõpuks Vanakurat teenima.
+        Sortsi nõrkused ja kuidas end kaitsta
+
+        Kuigi Sortsid on väga võimsad, on neil ka nõrkusi. Rahvapärimuste järgi võib neid peatada või eemale hoida:
+
+            Pühitsetud esemetega, näiteks kiriku ristide või pühitsetud vee abil.
+            Loitsude või vanade rahvalauludega, mis seovad Sortsi võimed.
+            Raudesemete, näiteks naelte või hobuseraua paigutamisega ukse ette, kuna arvatakse, et raud takistab musta maagia jõudu.
+
+        Mõnes loos võib Sorts saada ka omaenda needuste ohvriks – kui ta lausub loitsu valesti või kui ta enda kurjus talle tagasi pöördub.
+        Sortsi ja nõidade erinevus
+
+        Erinevalt tavalistest tarkadest ja ravitsejatest, kes kasutasid maagilisi oskusi inimeste aitamiseks, olid Sortsid pigem pahatahtlikud ja isekad tegelased. Nad võisid oma oskusi kasutada isikliku kasu saamiseks või lihtsalt teistele kahju tegemiseks.`,
+        slug: 'sorts'
+    },
+    {
+        id: 26,
+        name: 'Kukk',
+        price: '***',
+        image: imageBeast026,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Kukk Eesti mütoloogias on sümboolse tähendusega lind, kellel arvatakse olevat maagiline jõud. Rahvapärimustes seostatakse teda eelkõige valguse, päikesetõusu ja kurjade jõudude peletamisega. Kuke kiremisega algab päev ning vanade uskumuste järgi põgenevad sel hetkel Vanakuri ja teised pahad vaimud.
+        Kuke müütiline tähendus
+
+            Kaitse ja valguse sümbol – Kukke peeti majavalvuriks, kes hoidis eemale kurje vaime ja õnnetusi.
+            Piir maailmade vahel – Arvati, et Kukk suudab tajuda nähtamatuid jõude ning tema kiremine ajab laiali öised kummitused ja halvad vaimud.
+            Ohvrilind – Mõnes uskumuses ohverdati kukk maa või veevaimudele, et tagada hea saak, viljakus või kaitse õnnetuste eest. Näiteks on räägitud, et enne silla või hoone ehitamist maeti kukk vundamenti, et ehitis püsiks tugev.
+            Seos Nõiakaevuga – Tuhala Nõiakaevu rahvapärimusest tuntakse lugu, et kui vesi kaevust keema tõuseb, on Tuhala nõiad saunas vihtlemas. Kuke kiremisega võivad sellised maagilised hetked lõppeda.`,
+        slug: 'kukk'
+    },
+    {
+        id: 27,
+        name: 'Ahjualune',
+        price: '***',
+        image: imageBeast027,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Ahjualune on Eesti rahvapärimustes tuntud koduvaim või majas elav olend, keda seostatakse eriti vanade talude ja kodudega. Ahjualune elab sageli ahju all või soojuse all, peamiselt talvel, kuna tal on soe ja kaitstud koht. Ta on üsna salapärane ja varjatud tegelane, kes ei ilmuta ennast tihti, kuid teda peeti alati kohalolekuks, mis andis soojust ja turvatunnet.
+        Välimus ja iseloom
+
+        Ahjualune ei ole üldiselt koletis ega hirmutav olend, vaid pigem kasulik ja kodune vaim, kuid tal on siiski oma mütoloogilised jooned, mis muudavad ta salapäraseks ja võõraks. Rahvajuttudes kujutatakse teda sageli väikse, pimeduse ja suitsu täis olevana. Tema keha võib olla udune ja hägune, tal on sageli haruldased või ebamugavad omadused, nagu jänese kõrvad või udune, musta karvaga keha. Kui Ahjualune välja ilmub, on ta sageli nagu väike, sassis ja sootäis olend, kelle käed või jalad võivad olla kaetud tahmase mustusega.
+
+        Ta on madala kasvu ja sageli kummaline välimus, peamiselt varjatud, kui pole just midagi pahandust tegemas. Tema eesmärk ei ole üldiselt inimestele kurja teha, vaid rohkem huvituda inimeste tegemistest ja aeg-ajalt välja ilmuda, et midagi peenelt ära võtta või lihtsalt kodu turvata. Ahjualune ei pruugi olla alati ohtlik, kuid teda seostatakse kodu kaitse ja loodusjõududega, mis tagavad talviste ööde soojuse.
+        Ahjualuse käitumine ja võimed
+
+        Ahjualune oli tavaliselt lahke ja kaitsev, aga samas ka salapärane. Rahvapärimustes on teda kirjeldatud kui olendit, kes kaitseb kodu õnnetuste ja kurjuse eest, samas võis ta olla ka trikster, kes teeb majas väikseid lõkse või keerdkäike. Ahjualune suhtles talurahvaga vaid siis, kui oli midagi tähtsat öelda või teha, kuid ta tegutses enamasti öösel või siis, kui majas kedagi ei olnud.
+
+        Ta elas ahjus, kuna seal oli soe ja kaitstud koht, kuid samuti oli tal kombeks kodus ringi liikuda. Kui kodu pererahvas unustas teha mingisuguseid rituaale või kodu eest hoolitseda, võis Ahjualune nende tegemisi jälgida ja vastavalt nendele reageerida.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Ahjualuse lood võivad olla seotud ka teiste koduvaimude ja talupererahva uskumustega, näiteks kodu kaitsja vaimudega, nagu kodukakk või mustrikurg. Samuti on mõnedes lugudes Ahjualune esindaja oma kohalolekuga, et hoida eemale halbu vaime ja kurje jõude, pakkudes kodus soojust ja rahu.
+        Kuidas Ahjualust peleti või rahustati
+
+        Ahjualuse eest hoolitsemiseks pidi pererahvas olema tähelepanelik. Kui ta hakkas tegemisi segama või liiga palju õnnetusi tõi, siis püüti teda rahustada toitu või maiustustega, nagu piim või leib, et ta ei oleks majas liiga pahur ja ei tekitanud segadust.`,
+        slug: 'ahjualune'
+    },
+    {
+        id: 28,
+        name: 'Ülemiste Vanake',
+        price: '***',
+        image: imageBeast028,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Ülemiste Vanake on üks tuntumaid ja salapärasemaid tegelasi Eesti mütoloogias, kellel on tihti seotud võim ja maagia. Ta on seotud Ülemiste järvega, mis asub Tallinna lähedal ja on oma olemuselt mitte ainult geograafiline, vaid ka mütoloogiline paik, kus varitseb vanade müütide ja legendide maailm.
+        Ülemiste Vanake välimus ja omadused
+
+        Ülemiste Vanake on sageli kujutatud kui vanem mees, kellel on pikk, hall või valge habe ja sügavad kortsud näol. Tema välimus on nagu ajast ja arust, peegeldades tema suurt vanust ja tarkust. Ülemiste Vanakese silmad on kirjeldatud kui külmad ja sügavad, justkui suudaksid nad läbi paista inimeste hinge. Tihti peetakse teda rahu ja tarkuse kehastuseks, kuid samas ka üsna hirmuäratavaks kujudeks, kelle kohalolek võib olla äärmiselt mõjuvõimas.
+
+        Ta kannab tihti tumedaid, lihtsaid riideid, mis on ajaga kulunud ja maapinnaga ühte sulanduvad. Tema juuksed on hõredad ja hallid, andes talle unustamatu ja ajatu välimuse. Mõned lood kirjeldavad teda kui pikka, kõhnat meest, kelle figuur on kummaliselt õhuline, peaaegu nähtamatu, nagu ta oleks seotud teise, müütilise dimensiooniga.
+        Ülemiste Vanake ja Ülemiste järv
+
+        Ülemiste Vanake on tihedalt seotud Ülemiste järvega, mis on oma mütoloogilises tähenduses sageli kurjuse ja varjatud jõudude allikas. Ülemiste järv on esindatud kui paik, kus asub peidetud võim ja salapärased olendid. Vanake on järve hoidja, ja mõned lood ütlevad, et ta valvab seda järve, hoides seda maagiliste ja ohtlike jõudude eest.
+
+        Ülemiste Vanake on see, kelle kaudu kõiksugu maagilised toimingud ja muutused järve piirkonnas võivad juhtuda. On räägitud, et tema kohalolek tõmbab ligi erilisi inimesi ja sündmusi – ta võib aidata neid, kes on teda väärt, kuid samas ei karda ta ka inimesi oma jõududega karistada, kui nad on hakanud üle piiri minema.
+        Ülemiste Vanake ja loodusjõud
+
+        Vanakese roll on tihti seotud loodusjõududega, nagu äike, tormid ja vihm. Üks tähtsamaid seoseid on see, et Vanake suudab tuua valgust, kui päike tõuseb, kuid ka varjata päikese täielikult, kui ta seda tahab. Vanake on vahendaja meie ja loodusjõudude vahel, olles samal ajal nii valgustaja kui ka varjaja.
+
+        Mõned müüdid räägivad, et ta on justkui määratud ülesandega hoida tasakaalu meie maailma ja teispoolsuse vahel. Kui keegi rikub looduse seadusi või üritab mängida jumalikku jõudu, siis Ülemiste Vanake on see, kes saab neid mõista ja võimalusel karistada.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Ülemiste Vanake on sageli võrreldav teiste Eesti mütoloogiliste tegelastega, kes on seotud loodusjõudude ja müstika valdamisega. Ta on tihti esindatud kui üksinda tegutsev vaim, kellel on võime mõjutada loodust ja inimesi. Tema kohalolek on justkui üleminek mitmesuguste maagiliste maailma piiride vahel.
+
+        Ülemiste Vanakese kohalolek on alati olnud seotud salapära ja mõistatuslikkusega. On räägitud, et ta ilmub ainult siis, kui on tõeliselt vajalik, olles nähtamatu ja käitub justkui nõid või maag, kes valvab looduse ja inimese tasakaalu.
+        Mütoloogilised lood ja uskumused
+
+        Üks tuntumaid lugusid räägib, kuidas Ülemiste Vanake abistas kunagi Tallinna linna asutamist. Tema teadmised ja juhised aitasid rajada linna, kuid samal ajal oli ka hoiatus, et inimene ei tohi ületada looduse piire, sest siis saab Ülemiste Vanake enda võimed vabaks lasta.
+
+        Vanake ja Ülemiste järv on alati olnud kohal kohalike uskumuste ja juttude keskmes, olles midagi rohkemat kui lihtsalt füüsiline paik – nad on osa igavese loodusjõu ja tasakaalu hoidmisest.`,
+        slug: 'ülemiste_vanake'
+    },
+    {
+        id: 29,
+        name: 'Tuhala Nõiad',
+        price: '***',
+        image: imageBeast029,
+        description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
+        fulldescription: `Tuhala nõiad on osa Eesti mütoloogiast ja rahvapärimustest, olles tuntud kui maagilised ja salapärased olendid, kelle tegevused on seotud Tuhala küla ja seal asuva Tuhala Nõiakaevuga. Tuhala nõiad on tihti kujutatud kui kurjad või omamoodi maagilised naised, kes kasutavad oma teadmisi ja võimeid inimestele kahju tegemiseks või salapäraste rituaalide läbiviimiseks.
+        Tuhala nõidade olemus ja välimus
+
+        Tuhala nõiad on peamiselt naised, kellel on erakordsed võimed ja kes elavad tavaliselt üksildastes kohtades, nagu metsas, rabas või kaugemates taludes. Nad on tihti seotud musta maagia ja nõidumisega, samas võib neid ka pidada looduse ja maa saladuste teadjateks.
+
+        Välimuselt on Tuhala nõiad sageli esindatud kui vanemad naised, kellel on hallid juuksed, teravad jooned näos ja kehal mustad või tumedad riided. Nende välimus on sageli hirmuäratav ja salapärane, andes edasi neid ümbritsevat müstikat ja maagiat. Neil võib olla kaasas erinevaid nõiapille, sauasid või muid rituaali tööriistu, millega nad oma maagilisi tegevusi teevad.
+
+        Nad on tavaliselt seotud loodusjõudude ja talurahva elu mõistmisega. Nõiad elavad looduses ja neil on loomulik side looduse, taimede ja elementidega, mida nad kasutavad oma loitsude ja rituaalide jaoks.
+        Tuhala nõidade maagia ja tegevused
+
+        Tuhala nõiad olid rahvapärimustes tihti tuntud oma musta maagia ja loitsude poolest. Nad suutsid teha neidusi, ravimite valmistamise või isegi loomadele või inimestele kurja tegemise kaudu. Nõiad ei olnud aga alati halvad – mõnikord kasutati neid ka tervendamiseks ja abiks talutöös.
+
+        Tuhala nõidade tegevused sisaldavad järgmist:
+
+            Loitsud ja needused – Tuhala nõiad olid tuntud oma võime poolest inimesi ja loomi needa. Nad said õnnetusi või talupidajate saaki hävitada, kui soovisid. Sageli arvati, et nad saavad kontrollida ka loodusjõude, nagu torme või rahet, et kahjustada põllusaaki.
+
+            Rituaalid ja nõidumine – Nõiad viibisid sageli Tuhala Nõiakaevu juures, kus korraldati salapäraseid rituaale. Arvati, et nad suudavad rikka elu, tervise või jõu tagamiseks teha maagilisi toimetusi. Sageli viibisid nad öösel kaevu ümber, sooritades rituaale, mis on seotud elu- ja surmavõimude kontrollimisega.
+
+            Taimede ja ravimite kasutamine – Nõiad olid taimede ja ravimite meistrid, teades, milliseid taimi kasutada tervendamiseks või nõidumiseks. Nad valmistusid ravimtaimedest õlisid ja keediseid, mida kasutati kas tervendamiseks või neetuste eemaldamiseks.
+
+            Nõiad kui loodusjõudude vahendajad – Tuhala nõiad olid seotud loodusjõududega ja suutsid neid teatud määral kontrollida või nende kaudu teadlikult oma soove täide viia.
+
+        Tuhala Nõiakaev ja selle tähendus
+
+        Tuhala Nõiakaev on üks silmapaistvamaid ja salapärasemaid paiku Eestis, mis on tugevalt seotud Tuhala nõidude tegevusega. Nõiakaevu peetakse kohtumispaigaks, kus nõiad kogunevad öösel, et oma rituaale läbi viia. Üks tuntud rahvapärimus räägib, et kui vesi kaevus keema tõuseb, on see märk, et nõiad on seal vihtlemas ja oma maagilisi toiminguid tegemas.
+
+        Tuhala Nõiakaev on ka oma olemuselt maagiline paik, kus esinevad erilised loodusnähtused, näiteks vette ilmuvad mullid või õhust kiirgavad erilised valguskiired. Kaevu ümbruses on nähtud kummalisi liikuma panemisi, mis viitavad sellele, et seal toimuvad erilised maagilised rituaalid.
+        Tuhala nõidade seosed rahvapärimustes
+
+        Rahvapärimustes on palju lugusid Tuhala nõidadest, kus need maagilised naised võivad olla seotud inimestega, keda nad õnnistavad või karistavad. Näiteks on räägitud, et nõiad said muuta oma välimust või loomi, et teha inimestele kahju või, vastupidi, pakkuda neile abi. Samuti on teatud lugudes mainitud, et nad võivad oma loitsudega isegi teha loomadest inimesi või inimesi loomadeks.
+        Kuidas end kaitsta Tuhala nõidade eest?
+
+        Kuna Tuhala nõiad olid seotud musta maagia ja halbade loitsudega, siis oli rahvas tihti ettevaatlik nende tegevuse suhtes. Oli mõned tavad, kuidas nõidade eest kaitsta:
+
+            Püha vesi – Kasutati pühitsetud vett, et tõrjuda nõidude kurje võimeid.
+            Raud – Raudasemete paigutamine maja ukse ette või ümbritsevale alale oli üks viise, kuidas nõiad ei saanud sisse pääseda.
+            Loitsutamine ja talismanid – Eriti usuti maagilistesse sõnadesse ja talismanidesse, mis kaitsesid kodu ja inimesi nõidade eest.
+
+        Tuhala nõiad tänapäeval
+
+        Tuhala nõidade müüdid ja lood elavad edasi tänapäevalgi. Tuhala Nõiakaev on muutunud üheks külastatavamaks paigaks Eestis, olles tänapäeval ajalooline ja kultuuriline mälestis, mis meelitab turiste ja huvilisi, kes on põnevil Eesti mütoloogilise pärandi ja nõidade ajaloo vastu.`,
+        slug: 'tuhala_nõiad'
     },
 ];

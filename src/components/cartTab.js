@@ -14,7 +14,7 @@ const CartTab = () => {
     };
 
     return (
-        <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl w-96 h-full flex flex-col transform ${statusTab ? "translate-x-0" : "translate-x-full"} transition-transform duration-300`}>
+        <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl w-96 max-w-full h-full flex flex-col transform ${statusTab ? "translate-x-0" : "translate-x-full"} transition-transform duration-300`}>
             
             {/* Pealkiri */}
             <h2 className='p-4 text-white text-2xl border-b border-gray-500'>Nimekiri</h2>

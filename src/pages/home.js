@@ -2,19 +2,6 @@ import React from 'react'
 import { beasts } from '../beasts'
 import Beast from '../components/beastCart'
 import BeastCart from '../components/beastCart'
-
-/* const Home = () => {
-    return (
-        <div>
-            <h1 className='text-3xl my-5'>List Beasts</h1>
-            <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5'>
-                {beasts.map((beast, key) =>
-                    <BeastCart key={key} data={beast}/>
-                )}
-            </div>
-        </div>
-    )
-} */
     
 const Home = () => {
     const shuffledBeasts = [...beasts].sort(() => 0.5 - Math.random()).slice(0, 3);

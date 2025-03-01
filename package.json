@@ -1,8 +1,8 @@
 {
+  "homepage": "https://mmeest.github.io/Bestiaria-Estonica",
   "name": "bestiaria",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mmeest.github.io/Bestiaria-Estonica",
   "dependencies": {
     "@reduxjs/toolkit": "^2.6.0",
     "@testing-library/dom": "^10.4.0",
@@ -23,8 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build", 
-    "predeploy": "npm run build" 
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
