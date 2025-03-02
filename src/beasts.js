@@ -1,43 +1,14 @@
-import imageBeast001 from './assets/images/001.jpg'
-import imageBeast002 from './assets/images/002.jpg'
-import imageBeast003 from './assets/images/003.jpg'
-import imageBeast004 from './assets/images/004.jpg'
-import imageBeast005 from './assets/images/005.jpg'
-import imageBeast006 from './assets/images/006.jpg'
+const imageBeasts = Array.from({ length: 35 }, (_, i) =>
+    require(`./assets/images/${(i + 1).toString().padStart(3, '0')}.jpg`)
+  );
 
-import imageBeast007 from './assets/images/007.jpg'
-import imageBeast008 from './assets/images/008.jpg'
-import imageBeast009 from './assets/images/009.jpg'
-import imageBeast010 from './assets/images/010.jpg'
-import imageBeast011 from './assets/images/011.jpg'
-import imageBeast012 from './assets/images/012.jpg'
-
-import imageBeast013 from './assets/images/013.jpg'
-import imageBeast014 from './assets/images/014.jpg'
-import imageBeast015 from './assets/images/015.jpg'
-import imageBeast016 from './assets/images/016.jpg'
-import imageBeast017 from './assets/images/017.jpg'
-import imageBeast018 from './assets/images/018.jpg'
-
-import imageBeast019 from './assets/images/019.jpg'
-import imageBeast020 from './assets/images/020.jpg'
-import imageBeast021 from './assets/images/021.jpg'
-import imageBeast022 from './assets/images/022.jpg'
-import imageBeast023 from './assets/images/023.jpg'
-
-import imageBeast024 from './assets/images/024.jpg'
-import imageBeast025 from './assets/images/025.jpg'
-import imageBeast026 from './assets/images/026.jpg'
-import imageBeast027 from './assets/images/027.jpg'
-import imageBeast028 from './assets/images/028.jpg'
-import imageBeast029 from './assets/images/029.jpg'
 export const beasts = [
     {
         id: 1,
         name: 'Kratt',
         price: '***',
         protection: '',
-        image: imageBeast001,
+        image: imageBeasts[0],
         description: 'Maagiline olend, kelle peremees pidi talle hingeks andma kuradile midagi väärtuslikku. Kratt aitas varandust koguda.',
         fulldescription: `Kratt on üks tuntumaid tegelasi Eesti mütoloogias, eriti seoses rahvajuttude ja uskumustega. Kratt on tegelikult maagiline või üksteist täiendav olend, keda saab luua inimese poolt, kasutades erinevaid esemeid või muid loodusmärke. Kratti on sageli kirjeldatud kui midagi, mis on valmistatud erinevate esemete ühendamisest, nagu vanad tööriistad, lauad, küünlad, rihmad jne, ning need võivad olla ellu äratatud erinevate rituaalide või maagiliste sõnade abil.
         
@@ -77,7 +48,7 @@ export const beasts = [
         name: 'Tont',
         price: '***',
         protection: '',
-        image: imageBeast002,
+        image: imageBeasts[1],
         description: 'Maagiline olend, kelle peremees pidi talle hingeks andma kuradile midagi väärtuslikku. Kratt aitas varandust koguda.',
         fulldescription: `Eesti mütoloogias on Tont (tuntud ka kui tont, õudus, vaim, haldjas) üks klassikalisi üleloomulikke olendeid. Tondi kuvand ja roll on tihti seotud hirmu, ebaõnne ja müstiliste nähtustega, mis võivad inimestele halba saatusetunde tekitada. Eestis usuti vanasti, et tontide tegevus ja kohalolek seondub tihti eriliselt pimedate kohtadega, vanade hoonete või metsadega.
         
@@ -108,7 +79,7 @@ export const beasts = [
         name: 'Vanapagan',
         price: '***',
         protection: '',
-        image: imageBeast003,
+        image: imageBeasts[2],
         description: 'Tuntud ka kui Kurat, rahvajuttudes sageli lihtsameelne ja petetav olend.',
         fulldescription: `Vanapagan on üks tähtsamaid tegelasi Eesti mütoloogias, olles samal ajal vanema ja kurjuse kehastus, kuid samas ka mitmekülgne ja tihti naljakas isik. Ta on seotud kurja, petlikkuse, tarkuse ja vanuse elementidega, ning esindab loodusjõudude ja inimeste elu tsüklite tasakaalu. Vanapaganat on tihti kujutatud kui vana mees, kellel on palju tarkust, kuid samas ka halbade kavatsustega, andes talle keeruka ja vastuolulise isiksuse.
         
@@ -137,7 +108,7 @@ export const beasts = [
         name: 'Näkk',
         price: '***',
         protection: '',
-        image: imageBeast004,
+        image: imageBeasts[3],
         description: 'Veevaim, kes võis inimesi veepõhja meelitada.',
         fulldescription: `Näkki on Eesti mütoloogias üks tuntumaid ja müstilisemaid veeloomi, kes on seotud veekogude ja veealuse maailma saladustega. Näkkide kujutamine on sarnane teiste Euroopa rahvaste veepääsude ja veekogude vaimude kujutamisele, kuid Eesti mütoloogias on neil oma spetsiifilised omadused ja tähendus.
         
@@ -170,7 +141,7 @@ export const beasts = [
         name: 'Vetehaldjas',
         price: '***',
         protection: '',
-        image: imageBeast005,
+        image: imageBeasts[4],
         description: 'Veekogusid kaitsev olend, mõnikord sarnane Näkile.',
         fulldescription: `Vetehaldjas on Eesti mütoloogias üks veekogude ja looduse jumalannadest, kes on seotud vee elementide ja loodusjõududega, mis valitsevad järvede, jõgede ja allikate üle. Vetehaldjas on sageli esindatud kui veega seotud müütiline naissoost olend, kellel on suur mõju looduse tasakaalu ja viljakuse üle.
         
@@ -205,7 +176,7 @@ export const beasts = [
         name: 'Hiid',
         price: '***',
         protection: '',
-        image: imageBeast006,
+        image: imageBeasts[5],
         description: 'Suured ja jõulised olendid, Eesti rahvajuttudes sageli inimesi kiusavad.',
         fulldescription: `Hiid on Eesti mütoloogias suur ja võimas olend, sageli esindatud kui hiiglaslik tegelane, kellel on erakordne tugevus ja sageli ka üleloomulikud omadused. Hiid on seotud looduse ja maa jõududega ning sageli kujutatakse teda kui iidset või ürgset isikut, kelle tegutsemine on seotud maailma loomise või muutmisega.
         
@@ -237,7 +208,7 @@ export const beasts = [
         name: 'Allikaravitseja',
         price: '***',
         protection: '',
-        image: imageBeast007,
+        image: imageBeasts[6],
         description: 'Veekogudega seotud vaimolend, keda peeti ohtlikuks.',
         fulldescription: `Allikaravitseja on Eesti mütoloogias vähe tuntud, kuid huvitav tegelane, kelle nimi viitab otseselt looduse ja maa elementide käsitlemisele, seondudes allikate, vetikate ja looduslike veekogudega. Allikaravitseja on tihti seotud allikate või maapinnast voolava vee energia ning looduse elujõududega.
         
@@ -267,7 +238,7 @@ export const beasts = [
         name: 'Metsavana',
         price: '***',
         protection: '',
-        image: imageBeast008,
+        image: imageBeasts[7],
         description: 'Metsa peremees, kes hoiab korda ja karistab pahategijaid.',
         fulldescription: `Metsavana on Eesti mütoloogias üks tähtsamaid loodusehaldjatest ja metsade vaim, kellel on sügavad juured rahva uskumustes ja loodusmüüdis. Metsavana on sageli kujutatud kui tark, auväärne ja salapärane tegelane, kes valvab metsa ja loodust, olles seotud metsaelu, loodushoiu ja elu tasakaalu tagamisega. Tema välimus ja omadused viitavad sageli vanusele, tarkusele ja looduse harmooniale.
         
@@ -303,7 +274,7 @@ export const beasts = [
         name: 'Metsik',
         price: '***',
         protection: '',
-        image: imageBeast009,
+        image: imageBeasts[8],
         description: 'Metsas elav üleloomulik olend, sageli nähtamatu.',
         fulldescription: `Metsik on Eesti mütoloogias metsade ja looduse müstiline vaimolend, kelle nimi viitab tema metsikule ja taltsutamatule loomusele. Ta on sageli seotud sügavate metsade ja ürgse looduse jõududega ning teda on peetud metsa valitsejaks või kaitsjaks.
         
@@ -329,7 +300,7 @@ export const beasts = [
         name: 'Kodukäija',
         price: '***',
         protection: '',
-        image: imageBeast010,
+        image: imageBeasts[9],
         description: 'Rahutu hing, kes käib surnuist tagasi, kui teda ei ole korralikult maetud või on tal lahendamata asju.',
         fulldescription: `Kodukäija Eesti mütoloogias
 
@@ -371,7 +342,7 @@ export const beasts = [
         name: 'Tulihänd',
         price: '***',
         protection: '',
-        image: imageBeast011,
+        image: imageBeasts[10],
         description: 'Leekiv tulekerana liikuv olend, kes tõi omanikule varandust, kuid nõudis ohverdusi.',
         fulldescription: `Tulihänd Eesti mütoloogias
 
@@ -427,7 +398,7 @@ export const beasts = [
         name: 'Luupainaja',
         price: '***',
         protection: '',
-        image: imageBeast012,
+        image: imageBeasts[11],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Luupainaja Eesti mütoloogias
 
@@ -489,7 +460,7 @@ export const beasts = [
         name: 'Murueide Tütar',
         price: '***',
         protection: '',
-        image: imageBeast013,
+        image: imageBeasts[12],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Murueide Tütar on Eesti rahvapärimuses tuntud kui kaunis, kuid salapärane ja ohtlik metsolend. Ta elab soodes, metsades ja heinamaadel ning ilmub inimeste ette sageli kauni neiuna, kes võib võluda, eksitada või isegi hukka saata.
         Murueide Tütre välimus ja iseloom
@@ -533,7 +504,7 @@ export const beasts = [
         name: 'Kõu',
         price: '***',
         protection: '',
-        image: imageBeast014,
+        image: imageBeasts[13],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Kõu on Eesti rahvapärimuses seotud äikese, pikse ja tormiga. Ta on üks olulisemaid loodusvaime, keda peetakse taeva ja ilma valitsejaks. Kõu ei ole pelgalt loodusnähtus, vaid ka jumalik olend või vaim, kelle viha ja vägi avaldub äikeses, mürinas ja välgusähvatustes.
         Kõu iseloom ja omadused
@@ -579,7 +550,7 @@ export const beasts = [
         name: 'Pikne',
         price: '***',
         protection: '',
-        image: imageBeast015,
+        image: imageBeasts[14],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Pikne on Eesti rahvapärimuses ja mütoloogias oluline jumalus, kes on seotud äikese, välgu ja tormidega. Ta on taevajumal ja pikejumal, kelle viha ja vägi ilmnevad tormide ja välkude kaudu. Pikne on üks tähtsamaid loodusvaime, kellel on suur mõju loodusele, eriti viljakusele ja ilmastikuoludele. Pikne on sageli seotud ka tuletulekahjude ja sepadöövustega, kuna temas nähakse metalli valajat ja võimsate relvade loojat.
         Pikne iseloom ja omadused
@@ -619,7 +590,7 @@ export const beasts = [
         name: 'Lendva',
         price: '***',
         protection: '',
-        image: imageBeast016,
+        image: imageBeasts[15],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Lendva on Eesti mütoloogias tuntud olend, keda peetakse õhuvaimuks või õhujumaluseks, kellel on võime lendama tõusta. Lendva on tihti seotud lindudega, tuulte ja tuulikutega, olles mingil määral sarnane mõnele teisele mütoloogilisele olendile, kellel on lennuvõime.
         Lendva omadused ja iseloom:
@@ -651,7 +622,7 @@ export const beasts = [
         name: 'Libahunt',
         price: '***',
         protection: '',
-        image: imageBeast017,
+        image: imageBeasts[16],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Libahunt on Eesti mütoloogias tuntud olend, kellel on kaksteist isiksust – inimene ja hunt – ning teda on peetud mõõdukas ja kurjuses seiklevaks olendiks. Libahunt kuulub võlurite ja mürgiste olendite hulka, kuid ta on tihti samasugune mütoloogiline tegelane kui teised keelekõverdajad, kes kontrollivad, kuidas metsas elatakse.
         Libahundi omadused ja välimus:
@@ -670,7 +641,7 @@ export const beasts = [
         name: 'Põrguline',
         price: '***',
         protection: '',
-        image: imageBeast018,
+        image: imageBeasts[17],
         description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
         fulldescription: `Põrgu on Eesti mütoloogias kurjusest ja allakäigust tuntud paik, millele tihti omistatakse kurjad olendid ja need, kes on teinud midagi halba või on täiesti kurjad. Põrgulise puhul aga räägitakse sellest kui müstilisest olendist, kellel on välja kujunenud omadused ja funktsioon olla üheks Põrgu esindajaks või teenriks, kes püüab pimeduse jõududega hirmutada inimesi ja tundeid.
         Põrgulise omadused ja välimus:
@@ -688,7 +659,7 @@ export const beasts = [
         name: 'Hiidkala',
         price: '***',
         protection: '',
-        image: imageBeast019,
+        image: imageBeasts[18],
         description: 'Tohutu veekoletis, keda peeti veekogude valitsejaks.',
         fulldescription: `Hiidkala on üks Eesti mütoloogias tuntud ja salapäraseid tegelasi, keda seostatakse sageli mere, järvede ja vetega. Ta on suur ja võimas, isegi jumalikult tugev olend, kelle kohalolek toob endaga kaasa mõistatuslikkuse ja ohu. Hiidkala kohta liigub palju legende, kus teda nähakse meri jumala esindajana või ka lihtsalt tohutu mõõtmega olendina, keda ei suuda ükski inimene tõeliselt mõista ega taltsutada.
         Hiidkala välimus:
@@ -734,7 +705,7 @@ export const beasts = [
         name: 'Lohe',
         price: '***',
         protection: '',
-        image: imageBeast020,
+        image: imageBeasts[19],
         description: 'Tule või vee jõududega seotud draakonitaoline olend.',
         fulldescription: `Eesti mütoloogias esinev lohe (või lõhestav lohe) on seotud sageli tuule, tormi ja katastroofilise loodusjõu kujundiga. Lohe on tavaline tegelane erinevates legendides ja loodustes, kus ta esindab väge, hävingut ja taltsutamatut jõudu, mis võib olla nii vaenulik kui ka kaitsev, sõltuvalt konkreetsest kontekstist. Kuigi Eesti mütoloogias ei ole lohed nii laialdaselt esindatud kui mõnes teises kultuuris, nagu Hiina või Euroopa keskaja mütoloogias, esinevad nad siiski mõnedes paikades ja lugudes, olles seotud taeva, tormide ja tulega.
         Lohe välimus:
@@ -771,7 +742,7 @@ export const beasts = [
         name: 'Suur Tõll',
         price: '***',
         protection: '',
-        image: imageBeast021,
+        image: imageBeasts[20],
         description: 'Hiiglaslik kangelane, keda võib pidada müütiliseks olendiks.',
         fulldescription: `Suurt Tõll on Eesti mütoloogias üks tuntumaid ja armastatumaid kangelasi, kes esindab tavainimese üleolekku looduse, metsade ja muude ohtude üle. Ta on hiiglane, kellele omistatakse erakordne füüsiline tugevus ja kangelastegusid. Suurt Tõll ei ole ainult füüsiliselt suur, vaid tema iseloom ja teod on samamoodi mõõdetavad suurusega — tema elu ja tegemised on täis mütoloogilisi elemente, nagu kangelastegevused, jumalikud jõud ja loodusmõjud.
         Suure Tõllu välimus:
@@ -812,7 +783,7 @@ export const beasts = [
         name: 'Soovana',
         price: '***',
         protection: '',
-        image: imageBeast022,
+        image: imageBeasts[21],
         description: 'Soos elav üleloomulik olend.',
         fulldescription: `Soovana on Eesti mütoloogias seotud veepoolse olendi või vesiroosi-sarnase kuju ning karmide jõudude ja loodusjõudude valitsejana. Soovana kujutatakse sageli kui tegelast, kes elab soodes ja tiikides ja kelle vägi on seotud vee ning veekogude üle valitsevate jõududega.
         Soovana välimus:
@@ -841,7 +812,7 @@ export const beasts = [
         name: 'Põhjakonn',
         price: '***',
         protection: '',
-        image: imageBeast023,
+        image: imageBeasts[22],
         description: 'Maost ja kurjuse energiast moodustunud ohtlik olend, kes toob õnnetust.',
         fulldescription: `Põhjakonn on üks Eesti mütoloogias esinev olend, kes on seotud põhja tuule ja külma jõududega. Põhjakonn on tihti kujutatud kui kõrgeima taseme vaenlane või jumal, kellel on müütiline vägi ja kes seondub talvise külmaga ja looduse karmusega. Põhjakonna tegelaskuju ilmneb sageli erinevates legendides ja loodustes, kus tema eesmärgiks on tekitada külma ja põhjatuid tuuli, mis toovad surma ja hävingut.
         Põhjakonna välimus:
@@ -874,7 +845,7 @@ export const beasts = [
         name: 'Koerakoonlane',
         price: '***',
         protection: 'KAITSE: Otsisid koerakoonlased kedagi taga, ühtlasi jälgi nuusutades, oli vanal ajal ainus abinõu nende käest pääsmiseks pastlaid, viiske või kingi tagurpidi jalga panna ja nii edasi minna, ehk aga ülepea paljajalu tagurpidi käia. Sedaviisi saatis tagaotsitav tagaotsija eksiteele: tagaotsija läks tagaotsitavat vastupidisest küljest otsima. Mõnd vaimlist olevustki, kelle tagakiusamist kardeti, juhiti tagurpidi käies vääradele jälgedele.',
-        image: imageBeast024,
+        image: imageBeasts[23],
         description: 'Koera pea ja inimkehaga müstiline olend.',
         fulldescription: `Koerakoonlane on Eesti mütoloogias ja rahvajuttudes tuntud olend – pool inimene, pool koer. Ta on kirjeldatud kui ohtlik ja metsik olend, kellel on inimese keha, kuid koera- või hunditaoline pea koos teravate hammaste ja ulguvate häältega. Mõnes loos on tal ka karvane keha, teravad küünised ja hõõguvad silmad, mis muudavad ta veelgi hirmuäratavamaks.
 
@@ -890,7 +861,7 @@ export const beasts = [
         name: 'Sorts',
         price: '***',
         protection: '',
-        image: imageBeast025,
+        image: imageBeasts[24],
         description: 'Nõiduslik müstiline tegelane.',
         fulldescription: `Sorts on Eesti mütoloogias ja rahvapärimustes tuntud maagiliste võimetega tegelane, keda võib pidada nõia, musta maagia valdaja või isegi deemonliku olendi sarnaseks. Sorts ei ole tavaline tark või nõid, vaid pigem kurjakuulutav tegelane, kelle eesmärk on sageli teistele kahju teha või oma võimu suurendada.
         Sortsi välimus ja käitumine
@@ -927,7 +898,7 @@ export const beasts = [
         name: 'Kukk',
         price: '***',
         protection: '',
-        image: imageBeast026,
+        image: imageBeasts[25],
         description: 'Eesti mütoloogiast tuntud lind, kelle kiremine kaitses kurjade jõudude eest.',
         fulldescription: `Kukk Eesti mütoloogias on sümboolse tähendusega lind, kellel arvatakse olevat maagiline jõud. Rahvapärimustes seostatakse teda eelkõige valguse, päikesetõusu ja kurjade jõudude peletamisega. Kuke kiremisega algab päev ning vanade uskumuste järgi põgenevad sel hetkel Vanakuri ja teised pahad vaimud.
         Kuke müütiline tähendus
@@ -943,7 +914,7 @@ export const beasts = [
         name: 'Ahjualune',
         price: '***',
         protection: '',
-        image: imageBeast027,
+        image: imageBeasts[26],
         description: 'Pisike habemega mehike, kes elab põranda all.',
         fulldescription: `Ahjualune on Eesti rahvapärimustes tuntud koduvaim või majas elav olend, keda seostatakse eriti vanade talude ja kodudega. Ahjualune elab sageli ahju all või soojuse all, peamiselt talvel, kuna tal on soe ja kaitstud koht. Ta on üsna salapärane ja varjatud tegelane, kes ei ilmuta ennast tihti, kuid teda peeti alati kohalolekuks, mis andis soojust ja turvatunnet.
         Välimus ja iseloom
@@ -969,7 +940,7 @@ export const beasts = [
         name: 'Ülemiste Vanake',
         price: '***',
         protection: '',
-        image: imageBeast028,
+        image: imageBeasts[27],
         description: 'Ülemiste järves elav vanamehe välimusega vaim.',
         fulldescription: `Ülemiste Vanake on üks tuntumaid ja salapärasemaid tegelasi Eesti mütoloogias, kellel on tihti seotud võim ja maagia. Ta on seotud Ülemiste järvega, mis asub Tallinna lähedal ja on oma olemuselt mitte ainult geograafiline, vaid ka mütoloogiline paik, kus varitseb vanade müütide ja legendide maailm.
         Ülemiste Vanake välimus ja omadused
@@ -1004,7 +975,7 @@ export const beasts = [
         name: 'Tuhala Nõiad',
         price: '***',
         protection: '',
-        image: imageBeast029,
+        image: imageBeasts[28],
         description: 'Tuhala karstialadel elavad nõiad, kes käivad sealsel kaevul vihtlemas.',
         fulldescription: `Tuhala nõiad on osa Eesti mütoloogiast ja rahvapärimustest, olles tuntud kui maagilised ja salapärased olendid, kelle tegevused on seotud Tuhala küla ja seal asuva Tuhala Nõiakaevuga. Tuhala nõiad on tihti kujutatud kui kurjad või omamoodi maagilised naised, kes kasutavad oma teadmisi ja võimeid inimestele kahju tegemiseks või salapäraste rituaalide läbiviimiseks.
         Tuhala nõidade olemus ja välimus
@@ -1048,5 +1019,138 @@ export const beasts = [
 
         Tuhala nõidade müüdid ja lood elavad edasi tänapäevalgi. Tuhala Nõiakaev on muutunud üheks külastatavamaks paigaks Eestis, olles tänapäeval ajalooline ja kultuuriline mälestis, mis meelitab turiste ja huvilisi, kes on põnevil Eesti mütoloogilise pärandi ja nõidade ajaloo vastu.`,
         slug: 'tuhala_nõiad'
+    },
+    {
+        id: 30,
+        name: 'Rotikuningas',
+        price: '***',
+        protection: `Kaitse Rotikuninga vastu: 
+        Taimed ja ürdid: Rahvapärimustes on sageli levinud usk, et teatud taimed ja ürdid suudavad kaitsta inimesi ebaõnne, haiguste ja musta maagia eest. Näiteks usuti, et kui talus või kodus kasvasid teatud kaitsvad taimed (nt küüslauk, lootoseõied, ristikhein), siis need suudavad hoida ära kurje vaime, sealhulgas Rotikuningat ja rottide pealetungi. Erilised ürdid nagu raudrohud või tubakas olid tihti uskumustes seotud kurjuse eemaldamisega.
+
+        Lõhnad ja suitsutus: Väga levinud oli ka kaitsemeetodite kasutamine lõhnade ja suitsude kaudu. Näiteks suitsutati kodu pelgalt küüslaugu või palderjani lõhnaga, kuna uskuti, et teatud lõhnad võivad eemale peletada kurje olendeid, nagu Rotikuningas või muud mustad jõud. Samuti suitsutati kodu või karjatallu ohvriteks mõeldud taimede või ürtidega, et kaitsta neid loomade või muude negatiivsete mõjude eest.
+
+        Ülemvõimu tunnetus: Rotikuningas on sageli seotud ebaõnne ja hävinguga, kuid mõnesugustes lugudes peeti kaitseks ka usku omaenda sisemise jõu ja valmiduse suurendamise kohta. Inimesed arvasid, et tugev uskumus ja meelerahu võivad peletada musta maagia, kurjuse ja ebaõnne. See uskumus võib olla seotud tugevate usuliste praktikate või rahvapäraste loitsudega.
+
+        Religioon ja uskumused: Paljudes kultuurides, sealhulgas Eestis, usuti, et usulised rituaalid ja kaitsepalved suudavad eemale peletada kurje vaime ja olendeid, sealhulgas Rotikuningat. Palvetamine, ristide tegemine või kaitsetähtede (nt ringikujulised või ristkülikukujulised kujundid) tegemine kodu sissepääsule või talus endale võis olla viis kurjuse hoidmiseks eemal. Samuti oli uskumus, et vaimsed rituaalid võivad eemaldada ka loomade poolt toodud saaste.
+
+        Võimalus hävitada Rotikuningas: Kuigi Rotikuningas on sageli piltlikult seotud kurjusega, siis rahvapärimustes on ka uskumusi, et teda saab "ära tappa" või eemaldada läbi teatud rituaalide. Näiteks, kui rottide kuningas või loomade kogum hävitab saaki või toiduvarusid, siis usuti, et tuleb teha kaitse rituaale, nagu spetsiifiliste loitsude lugemine või kindlate esemete, nagu piitsutamine või keemiliste kompositsioonide kasutamine.`,
+        image: imageBeasts[29],
+        description: 'Rotikuningas tähistas halba ennet, näiteks epideemia puhangut.',
+        fulldescription: `Rotikuningas on Eesti mütoloogias ja rahvapärimustes üks salapärase ja sageli õudustäratava tähendusega tegelane, kes esindab tavaliselt hävingut, kurjust ja loomade maailma allhoovusi. Tema kuvand on tihti seotud rottide, saaste ja hävinguga, kuid samas võib teda mõnesugustes lugudes näha ka kui talupoegade hirmuäratavat, kuid ühtlasi osaliselt ka ihaldatavat tegelast.
+        Välimus ja omadused:
+
+        Rotikuningas on sageli kujutatud kui suur ja vägev rott, kellel on inimesele omased jooned või isegi kuninglikud omadused. Ta võib kanda mingisuguseid kuninglikke aardeid või riideid, nagu kroon või kuninglikud mantlid, mis annavad talle suure ja võimsa isiku kuju. Tema välimus on tihti koletislik ja õudustäratav: suured teravad hambad, tumepruun või must karv, mis katab keha, ja teravad küünised. Ta on kurjuse ja saaste sümbol, kelle kohalolek toob kaasa hävingu ja häda.
+
+        Rotikuningas on sageli seostatav ebaõnne ja hävinguga. Tema liikumine on salapärane ja vaevu märgatav, ta võib ilmuda öösel, viidates mustale maagiale või kurja esindusele, kes toob kaasa haigused või vaesuse. Tema kohalolek ei too kunagi head ega rahu, vaid pigem tüli ja hävingu.
+        Tähendus ja roll rahvafolklööris:
+
+        Rotikuningas on sageli seotud looduse ja inimkonna vahelise tasakaalu rikkumisega. Rottide ja nende kuningas sümboliseerivad hävingut, saaste ja allpool toimuvat elu. Tema tegelaskuju on sageli kasutatud, et peegeldada sotsiaalset kriisi või inimeste kannatusi, mida põhjustavad kaose ja hävingu jõud.
+
+        Rikkumine ja häving: Rotikuningas on sageli nähtud kui hävingu ja saaste, eriti toidu või maa saastamise esindaja. Seda peetakse sageli märkideks sellest, et midagi on looduses tasakaalu kaotanud. Kui rotid, sealhulgas Rotikuningas, hakkavad tungima talumajadesse või viljapõldudele, siis see tähendab toiduvarude hävimist ja saagi kaotust.
+
+        Õudus ja ebausk: Rotikuningas on samuti seotud rahvafolklööris kurja ja õudusega, kuna rottide nähtus võib olla seotud nakkushaiguste ja ebaõnnega. Tema olemasolu viitab sageli sellele, et midagi halba on teel, ning inimesed võivad hakata kartma nii loomade kui inimeste allakäiku, kui Rotikuningas või tema alamad on kohal.
+        Kohalolek ja tegevus:
+
+        Rotikuningas ilmub sageli just siis, kui ühiskonnas on kaos, vaesus või haigused. Tema kohalolek võib tähendada, et mingi suur häda on inimestele lähenemas – näiteks talupidajad võivad hakata rotte kartma, kui põldudel on ilmnenud tohutud kahjud või kui seal on mädanev saak, mis viitab sellele, et looduses on midagi valesti. Samuti on teda võimalik kohtuda musta maagia ja ebaõnne tähisena, eriti kui räägitakse lugu sellest, kuidas Rotikuningas ilmub öösel, pimedates nurkades ja varjatud kohtades, nagu katkiste majade või lagunevate talude ümber.
+
+        Kui Rotikuningas ilmub inimese ellu, siis võib see olla märk, et inimese elu on täis hävingut ja raskusi, ning teda ennustatakse õnnetus või raske saatus. Tihti on ka lugu sellest, kuidas üks inimene saab Rotikuningast oma elu jooksul midagi õppida, kuid see õppetund on alati seotud raske elu ja suureks muutmisega.`,
+        slug: 'rotikuningas'
+    },
+    {
+        id: 31,
+        name: 'Must Kass',
+        price: '***',
+        protection: 'Halba ennet tähistav loom',
+        image: imageBeasts[30],
+        description: 'Tuhala karstialadel elavad nõiad, kes käivad sealsel kaevul vihtlemas.',
+        fulldescription: `Musta kass on Eesti rahvafolklööris üks salapäraseid ja hirmuäratavaid olendeid, kellel on sageli seotud musta maagia ja ebauskudega. Must kass on tihti arvatud olevat seotud surma, õnnetuste, aga ka kurja saatusega. Siiski võib tema kuvand varieeruda sõltuvalt kontekstist ja ajaloost.
+        Välimus ja omadused:
+
+        Musta kassi kuvand on sageli lihtne, kuid samas tugeva salapära ja rahvauskumustega seotud. Ta on tavaliselt väikese kehaehitusega loom, kellel on läikivad mustad või tumedad karvad. Tema silmad võivad olla eredalt rohelised või kollased, andes talle teatud üleloomulikku väge ja erakordset jõudu, mis on enamasti seotud ebausuga.
+
+        Musta kassi kohta usutakse, et ta on suuteline liikuma märkamatult, varjatud ja kavalalt, olles kui salajane olend, kes toob oma kohalolekuga alati kaasa müstilise tähenduse. Kui must kass ületab inimese tee või ilmub tema ellu, võib seda tõlgendada kui halbade sündmuste või õnnetuste ennustust.
+        Tähendus ja roll rahvafolklööris:
+
+        Musta kassi tähendus on tihti kahepoolne: ühes küljest peetakse teda kurjuse ja õnnetuse esindajaks, samas võib ta olla ka maagilise kaitse või hirmu kandja.
+
+            Halb õnn ja ebausk: Eriti kui must kass ületab inimese tee, peetakse seda õnnetuse või halva õnne märgiks. Selline uskumus on laialdaselt levinud paljudes kultuurides, sealhulgas Eestis. Inimesed on arvanud, et musta kassi nähes tuleb vältida tema tee ületamist, et mitte endale õnnetust tuua.
+
+            Must maagia ja kurjus: Must kass on seotud ka musta maagia ja nõiduse maailmaga. Rahvafolklööris on levinud usk, et must kass võib olla nõia saatja või isegi ise nõid. Usuti, et kui kass liigub inimesega kaasas, võib ta viidata sellele, et inimene on seotud kurja või üleloomulikuga.
+
+            Sümbol kaitsjana: Erinevates lugudes on must kass ka heade maagiliste omaduste ja kaitsja kujutis. Näiteks on mõnes kohas uskumus, et must kass võib kaitsta inimesi kurjuse ja vaenlaste eest, olles samas salapärane ja müstiline olend, kelle olemasolu toob tasakaalu ja kaitset.
+
+        Kohalolek ja tegevus:
+
+        Musta kassi ilmumine või tema nähtavus on rahvapärimustes sageli seotud ka eriliste hetkedega: tähtsate sündmuste, surma, kadumise või teiste suuremate muutustega. Kui must kass ilmub kodusse või ühe inimese ellu, siis see võib ennustada halba või keerulist perioodi. Samas, kui kass on inimesele usaldusväärne kaaslane, siis tema kohalolek võib ka rahu ja tasakaalu tuua.
+
+        Musta kassi käitumine on samuti oluline. Kui ta liigub mööda kodu nurki või peidab end varjatult, võib see viidata sellele, et midagi saladuslikku või kurja on toimumas. Kui aga kass käitub rahulikult ja sõbralikult, siis ei pruugi teda peetud mitte ohtlikuks, vaid kui pereliikmeks, kes elab oma elu ja toob tasakaalu.`,
+        slug: 'must_kass'
+    },
+    {
+        id: 32,
+        name: 'Põhjakotkas',
+        price: '***',
+        protection: '',
+        image: imageBeasts[31],
+        description: 'Eesti eeposest tuntud võimas lind.',
+        fulldescription: `Põhjakotkas on Eesti mütoloogias ja rahvapärimustes üks võimas ja mainekas linnufiguur, mis on seotud tugevalt looduse ja taevaga. Tema kuvand ja tähendus varieeruvad erinevates lugudes, kuid üldiselt on Põhjakotkas tuntud oma suuruse, vägevuse ja maagilise tähtsuse poolest.
+        Välimus ja omadused:
+
+        Põhjakotkas on tihti kujutatud kui suur, majesteetlik ja jõuline lind, kelle tiivad võivad ulatuda taeva piirideni. Tema välimus on kohati mütoloogiliselt ülekaalukas ja väärikas – suurte teravate küüniste, terava nokaga ning tiibadega, mis võivad kataboolse tuule või jõu kaudu muuta taeva mustaks. Tema suled on tihti esitatud tumedates toonides, nagu must või pruun, mis lisab talle salapära ja ohtlikkust. Ta on lendava ja ülimalt kiire, tihti kujutatakse teda kujul, kus ta liigub taevastest kõrgustest, olles peaaegu unustamatult silmapaistev.
+        Tähendus ja roll rahvafolklööris:
+
+        Põhjakotkas on sageli seotud põhjatuulte ja külma põhjamaise looduse, aga ka kõrgemate jõudude, jumalike olendite ja maagiliste olenditega. Ta on sageli vaimne juht, kes esindab vaimsust, tarkust ja loodusjõudude tasakaalu. Samuti on teda seotud sageli taevaste ühendustega – looduses ja maailmas, kus ta on kõrgemal kui inimeste maailm. Mõnedes lugudes võib Põhjakotkas olla tegelane, kes kannab elu ja surma teemasid, olles kõrgel ja meist eemal, jälgides ja suunates eluvoolu.
+
+        Põhjakotkas on sageli esindatud ka kui võimu ja vabaduse sümbol, kuna tema lend tähistab sõltumatust ja vabadust. Tema kohalolek mõnikord seostatakse ka ettekuulutuste ja esoteeriliste tähendustega, kuna ta liigub üle laiade maastike ja seab oma tegutsemise kõrgemate jõudude tasandile.
+        Kohalolek ja tegevus:
+
+        Mõnedes Eesti lugudes võib Põhjakotkas ilmuda inimese või looduse ellu, et anda märku olulistest muudatustest või hoiatustest. Tema kohalolek on sageli seotud talveaja ja külma, ehkki tal võib olla ka soojema ajaga seotud omadusi, kus ta ilmub kui jõuline ja kaitsev olend. Kui Põhjakotkas lendab läbi taeva, võib see tähendada muutusi looduses või maailmas, või seda võib tõlgendada kui kõrgete ja mõistuse kõrguste jõudude sõnumit.`,
+        slug: 'põhjakotkas'
+    },
+    {
+        id: 33,
+        name: 'Vaskuss',
+        price: '***',
+        protection: '',
+        image: imageBeasts[32],
+        description: 'Hirmuäratav hävingut külvav mürgine madu.',
+        fulldescription: `Vaskuss on Eesti mütoloogias üks kurja või ohtlikku olemust kehastav tegelane. Tavaliselt kujutatakse vaskussi kui maast väljaulatuvat, elusolendit meenutavat mürki täis madusid või madu, kelle kohalolek toob kaasa hävingut ja õnnetusi. Vaskuss seostatakse sageli surmaga, hävinguga ja elukeskkonna hävitamisega, olles esindatud mitmesugustes mütoloogilistes uskumustes ja rahvapärimustes.
+
+        Vaskussi uskumustes peeti ohtlikuks olendiks, kelle mürgine hambumus või hingamine võib tappa inimesi või loomi. Selle kohta on erinevates lugudes ka neid, kus vaskuss pidi olema vaenlane, kes püüab inimesi tappa või neile kurja teha, samas kui teistes lugudes on vaskuss osaks teatud loodusjõudude tasakaalu.
+
+        Mõnes müüdis võib vaskuss esindada ka teatud ajutist või püsivat ohtu, mis viitab kurjusele või inimese või looduse tasakaalu häirimisele. Samuti on vaskussil ka tihti maagilisi omadusi ning tema suhtes eksisteerib hirmu- ja austusväärne suhtumine, kuna ta suudab esindada loodusjõude, mis on inimeste kontrolli alt väljas.`,
+        slug: 'vaskuss'
+    },
+    {
+        id: 34,
+        name: 'Külmking',
+        price: '***',
+        protection: 'Maapeale uitama jäänud kurja inimese hing.',
+        image: imageBeasts[33],
+        description: 'Tuhala karstialadel elavad nõiad, kes käivad sealsel kaevul vihtlemas.',
+        fulldescription: `Külmking on Eesti mütoloogias üks õudusväärne ja hirmuäratav olend, keda peetakse sageli surmaga seotud või selle eelneva kohalolekuga. Tema nimi viitab tema külmale, külmetavat ning sageli surnuga seonduvale olemusele. Külmkinga käsitleti kui elu ja surma piiri olendit, kelle kohalolek oli märk lähenevast surmast või õnnetusest.
+
+        Külmkinga uskumustes on sageli kujutatud teda kui inimesekujulist olendit, kelle keha on külm ja jäine, nagu külmunud. Tema jalad või kingad võivad olla erilised, kuna see olend liigub ja kõnnib justkui teistele inimestele nähtamatult, ent tema kohalolek toob kaasa külmuse ja surma lähedaloleku.
+
+        Mõnes lugudes kujutatakse Külmkinga kui olendit, kes seondub surnutega ja ilmub paigale, kus keegi on suretatud või tõsises hädaolukorras. Külmkinga ilmumine või isegi tema puudutus võib tähendada, et isik on peagi surev või et tal on lähedal traagiline lõpp.
+
+        Külmkinga omadused varieeruvad erinevates lugudes, kuid teda peetakse enamasti surma esindajaks, kelle kohalolek jääb inimesi kummitama ja kes toob kurbust, hävingut ning külmuse. Ta on üks neid mütoloogilisi tegelasi, keda tihti seostatakse surmaga, aga tema tähendust võib käsitleda ka kui inimesi hoiatavat väge või maagilist jõudu.`,
+        slug: 'külmking'
+    },
+    {
+        id: 35,
+        name: 'Umbluu',
+        price: '***',
+        protection: '',
+        image: imageBeasts[34],
+        description: 'Undav ja verist vahtu välja ajav surnu sääreluu.',
+        fulldescription: `Umbluu on Eesti mütoloogias üks kummaline ja õudustäratav tegelane, keda seostatakse lahkunu hingega või matmata jäänud kehaosaga, millel on ohtlikud omadused. Umbluu on tavaliselt seotud õnnetuste, ülekohtuga või matmata jäänud inimese luuga, mis võib omandada ellujäämise instinktid, hakata liikuma ja isegi verd valama.
+
+        Umbluu olemus: Umbluu on tavaliselt kujutatud kui surnud inimese sääreluu, mis on jäänud matmata või mille keha ei saanud korralikult maha maetud. See luu hakkab iseseisvalt liikuma, andes edasi surma ja kurbuse õhku, olles seotud kodude ja maapiirkondade kuritegude või õnnetuste kohtadega. Seda võib kirjeldada kui looduse ja surma tasakaalu rikutud osa, mille kohalolek on alati seotud mingi õnnetuse või kurjuse esinemisega.
+
+        Funktsioon ja ilmumine: Umbluu ilmub sageli öösiti, mõnikord kuriteopaikadesse või õnnetuste kohtadele, andes märku, et keegi on surnud või surm on veel kohal. Tema liikumine on aeglane ja vaevu nähtav, kuid tema kohalolek võib tuua kaasa rahu või tasakaalu pärast matmata jäänud inimese hirmu ja kurbuse lõppemist. Kui umbluu kehaosa saab lõpuks maetud pühitsetud maasse, rahuneb ta ja tema kummituslik kohalolek kaob.
+
+        Välimus ja tegevused: Umbluu kujutamine varieerub, kuid teda peetakse sageli liikumisvõimetuks või hingetuks olendiks, kellel on üksik, elutu kehaosa, mis võib liikuda või verist vahtu välja ajada. See omamoodi "elus" luu, mis on saanud midagi surnut ja kurjat, mõjub hirmutavalt ja tekitab rahutust. Kui vaadata teda lähedalt, on sageli võimalik kuulda vaikset ulgumist, rääkimist või oigamist, mis kõlab kaugelt nagu hirmu või kurbuse heli.`,
+        slug: 'umbluu'
     },
 ];
