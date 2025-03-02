@@ -1,3 +1,10 @@
+<div>
+  <p align="center">
+    <img src="https://github.com/mmeest/Bestiaria-Estonica/blob/master/best.png" height="250px">
+  </p>
+</div>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
