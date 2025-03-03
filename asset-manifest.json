@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Bestiaria-Estonica/static/css/main.b333a22c.css",
-    "main.js": "/Bestiaria-Estonica/static/js/main.ba3ea578.js",
+    "main.js": "/Bestiaria-Estonica/static/js/main.c0837852.js",
     "static/js/453.463c798d.chunk.js": "/Bestiaria-Estonica/static/js/453.463c798d.chunk.js",
+    "static/media/038.jpg": "/Bestiaria-Estonica/static/media/038.2f5e9064867036daac1a.jpg",
     "static/media/021.jpg": "/Bestiaria-Estonica/static/media/021.86904a2ef05c407aba9a.jpg",
     "static/media/019.jpg": "/Bestiaria-Estonica/static/media/019.4c957856c1df78a831b3.jpg",
     "static/media/006.jpg": "/Bestiaria-Estonica/static/media/006.fcd3a8bceb05c8e62bef.jpg",
@@ -22,7 +23,9 @@
     "static/media/020.jpg": "/Bestiaria-Estonica/static/media/020.b80cbd7a5846f39b2a8d.jpg",
     "static/media/008.jpg": "/Bestiaria-Estonica/static/media/008.a220efd1d1fd415a4394.jpg",
     "static/media/005.jpg": "/Bestiaria-Estonica/static/media/005.125a652b5648c4fc122e.jpg",
+    "static/media/037.jpg": "/Bestiaria-Estonica/static/media/037.964fc7cf6c9766ec07aa.jpg",
     "static/media/016.jpg": "/Bestiaria-Estonica/static/media/016.906f8d575b61896eed77.jpg",
+    "static/media/040.jpg": "/Bestiaria-Estonica/static/media/040.12a4a79bb7b950ed45db.jpg",
     "static/media/027.jpg": "/Bestiaria-Estonica/static/media/027.c2065334e3d4395c2d1d.jpg",
     "static/media/025.jpg": "/Bestiaria-Estonica/static/media/025.6005d9c110615f0a5fb4.jpg",
     "static/media/028.jpg": "/Bestiaria-Estonica/static/media/028.60017825a9ab19a8f9d0.jpg",
@@ -32,21 +35,23 @@
     "static/media/022.jpg": "/Bestiaria-Estonica/static/media/022.bd29d457d1f3493d7029.jpg",
     "static/media/015.jpg": "/Bestiaria-Estonica/static/media/015.529367cdcf1dd9f7a411.jpg",
     "static/media/024.jpg": "/Bestiaria-Estonica/static/media/024.ec70f0ce258aeec1a88a.jpg",
+    "static/media/036.jpg": "/Bestiaria-Estonica/static/media/036.4143a25a4bb4db86e531.jpg",
     "static/media/031.jpg": "/Bestiaria-Estonica/static/media/031.e224d4b49d0f26ba96cd.jpg",
     "static/media/010.jpg": "/Bestiaria-Estonica/static/media/010.81acab2a1b98773eb876.jpg",
     "static/media/035.jpg": "/Bestiaria-Estonica/static/media/035.adb917b0118ac3720ae8.jpg",
     "static/media/034.jpg": "/Bestiaria-Estonica/static/media/034.1366bc294c11d1389688.jpg",
     "static/media/002.jpg": "/Bestiaria-Estonica/static/media/002.efd47cfa6ba29a5d41cb.jpg",
+    "static/media/039.jpg": "/Bestiaria-Estonica/static/media/039.c0406fcc390add348b59.jpg",
     "static/media/012.jpg": "/Bestiaria-Estonica/static/media/012.305723a3f4c28aaae7b3.jpg",
     "static/media/iconBest.png": "/Bestiaria-Estonica/static/media/iconBest.02214917f2a18c19cdf2.png",
     "static/media/logo.svg": "/Bestiaria-Estonica/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Bestiaria-Estonica/index.html",
     "main.b333a22c.css.map": "/Bestiaria-Estonica/static/css/main.b333a22c.css.map",
-    "main.ba3ea578.js.map": "/Bestiaria-Estonica/static/js/main.ba3ea578.js.map",
+    "main.c0837852.js.map": "/Bestiaria-Estonica/static/js/main.c0837852.js.map",
     "453.463c798d.chunk.js.map": "/Bestiaria-Estonica/static/js/453.463c798d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b333a22c.css",
-    "static/js/main.ba3ea578.js"
+    "static/js/main.c0837852.js"
   ]
 }
