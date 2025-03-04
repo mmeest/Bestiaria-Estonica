@@ -1,4 +1,4 @@
-const imageBeasts = Array.from({ length: 35 }, (_, i) =>
+const imageBeasts = Array.from({ length: 40 }, (_, i) =>
     require(`./assets/images/${(i + 1).toString().padStart(3, '0')}.jpg`)
   );
 
@@ -1152,5 +1152,134 @@ export const beasts = [
 
         Välimus ja tegevused: Umbluu kujutamine varieerub, kuid teda peetakse sageli liikumisvõimetuks või hingetuks olendiks, kellel on üksik, elutu kehaosa, mis võib liikuda või verist vahtu välja ajada. See omamoodi "elus" luu, mis on saanud midagi surnut ja kurjat, mõjub hirmutavalt ja tekitab rahutust. Kui vaadata teda lähedalt, on sageli võimalik kuulda vaikset ulgumist, rääkimist või oigamist, mis kõlab kaugelt nagu hirmu või kurbuse heli.`,
         slug: 'umbluu'
+    },
+    {
+        id: 36,
+        name: 'Kotermann',
+        price: '***',
+        protection: '',
+        image: imageBeasts[35],
+        description: 'Laevahaldjas, kes kaitseb laeva ja ennustab ette selle hukku.',
+        fulldescription: `Kotermann on Eesti meremeeste ja rannarahva uskumustes esinev mütoloogiline tegelane, kes on seotud laevade ja merereisidega. Ta on laeva kaitsevaim või tont, keda peetakse tavaliselt kurjaks või ohtlikuks olendiks, aga tema olemus võib olla ka kahekülgne – ta võib olla nii heatahtlik kui ka pahatahtlik, sõltuvalt sellest, kuidas laevameeskond teda kohtleb.
+        Kotermanni omadused ja roll:
+
+            Laeva kaitsevaim – Kotermann elab laevas ja on seotud laeva hea või halva käekäiguga. Kui teda hästi koheldakse ja tema eest hoolitsetakse, siis võib ta laeva kaitsta tormide, õnnetuste ja ka laeva õnnetu hukkumise eest. Kui aga tema eest ei hoolitseta või teda unustatakse, võib ta tuua laeva meeskonnale halba õnne ja isegi hukutada laeva.
+
+            Välimus ja omadused – Kotermanni kirjeldatakse tihti kui väike, müstiline ja varjatud tegelane, kelle välimus võib olla hirmuäratav või kummaline. Tema välimus võib varieeruda – vahel kujutatakse teda kui varjatud ja lõtvunud kuju, teinekord kui midagi loomulikku ja väikest, näiteks linnu või mõne muu olendi kujul, kes on laeva sees nähtamatult kohal.
+
+            Laeva haldamine ja kodu hirmud – Kotermann ei ole lihtsalt vaim, vaid pigem laeva "pereliige", kelle kohalolek muudab laeva elu. Tema liiklus laevas on sageli seotud mitmete salapäraste sündmustega – näiteks esemed liiguvad laeva peal või tekivad hirmutavad helid.
+
+        Kotermann kui folkloorne tegelane
+
+        Kotermanni tegelaskuju võib varieeruda, sõltuvalt piirkonnast ja müüdist, kuid ta on rahvausundi järgi tugevalt seotud laevade ja merereiside toimetega, olles oma kohalolekuga laeva igapäevaelu osa. Kotermann on rahvalauludes ja juttudes tihti märgitud kui laeva õnnetuse või ebaõnne põhjustaja, kuid samas ka kui tegelane, kes jälgib laeva ja tema meeskonna käitumist.`,
+        slug: 'kotermann'
+    },
+    {
+        id: 37,
+        name: 'Toonela Sõnumitooja',
+        price: '***',
+        protection: '',
+        image: imageBeasts[36],
+        description: 'Toonela ja maailma vaheline tegelane.',
+        fulldescription: `Toonela sõnumitooja ehk sinisiibu tsirk on Eesti ja Seto rahvaluules esinev mütoloogiline tegelane, kelle roll on olla vahelineku surma ja elu maailma vahel. Tema nimi viitab tema ülesandele – ta toob sõnumeid Toonelast, surnute maailmast, elavatele. Toonela sõnumitooja on seotud kurbuse, leina ja sureliku saatusega, kuid ka lohutuse ja rahu toomisega.
+        Toonela sõnumitooja omadused ja tähendus:
+
+            Sinisiibu tsirk – Üks peamisi jooni Toonela sõnumitooja välimuses on tema sinised tiivad. Nimi "sinisiibu tsirk" viitab sellele, et tema tiivad on sinised, justkui jää ja külma sümbolitena. Tihti kujutatakse teda kui linnulaadset olendit, kellel on külm ja rahu toov aura.
+
+            Looduse ja hinge esindaja – Toonela sõnumitooja on justkui sõnumitooja, kes tõi surmaga seotud sõnumeid elavatele. Tema kohalolek tähendas, et inimene, kellele sõnum oli suunatud, ei olnud üksi oma kurbuses ega muredes, vaid ta leidis leina ja igatsuse vastu rahu.
+
+            Lohtu toov tegelane – Toonela sõnumitooja oli sageli seotud leinaga. Eriti seto rahvalauludes räägitakse, et ta tuli trööstima leinavat tüdrukut, kes kaotas ema. Ema surm oli lahutuse hetk, kuid sõnumitooja ütles tüdrukule, et ema ei ole igaveseks lahkunud, vaid tema hing on nüüd rahus ja tuleb tagasi ühel päeval.
+
+        Folkloorne tähendus:
+
+        Sinisiibu tsirk ja Toonela sõnumitooja on seotud sügava leina, hinge rahu ja surma paratamatusega. Ta ei too ainult kurbust, vaid ka rahu – sõnumitooja ülesanne on aidata elavatel inimestel mõista, et surm on osa loodusest ja elu tsüklist, mitte lõpp. Ta esindab elu ja surma vaheline piiri, olles kergelt müstiline ja samas rahu toov tegelane.
+
+        Seto rahvalauludes on Toonela sõnumitooja justkui kergesti mõistetav ja rahu toov olend, kes õpetab leppimist elus ja surmas. Tema ülesanne ei ole karta surma, vaid mõista, et see on osa igavikust.`,
+        slug: 'toonela_sõnumitooja'
+    },
+    {
+        id: 38,
+        name: 'Siuru',
+        price: '***',
+        protection: '',
+        image: imageBeasts[37],
+        description: 'Siuru-lind on müütiline lind rahvuseeposes "Kalevipoeg".',
+        fulldescription: `Siuru on Eesti mütoloogias esinev ülimalt ilus ja müstiline linnufiguur, kellel on tihedad sidemed loodusjõudude ja vaimude maailmaga. Siuru on sageli seotud loova inspiratsiooni, ilu ja igavese elu ideedega ning teda peetakse üheks kõige silmapaistvamaks ja vägevamaks linnuks Eesti rahvatraditsioonides.
+        Siuru omadused ja tähendus:
+
+            Lind, kes toob elujõudu – Siuru on kujutatud kui erilist ja müstilist linnuliiki, kellel on võime toita elu. Tema tiivad ja sabad on kaunistatud erekollaste, siniste ja punaste värvidega, samas on tema keha tihti kergelt läbipaistev, nagu oleks ta loodusjõudude kehastus. Siuru esindab elu ja kõike elavat, olles üks suurtest looduse vaimudest.
+
+            Müstiline vägi ja ilu – Siuru peetakse linnuks, kes on ühenduses elu ja looduse kõige kõrgemate jõududega. Ta suudab puhastada, tõsta vaimu ja andma elujõudu. Tihti on ta seotud kevade ja uue elu tulekuga, kuid samas ka surmaga, kuna Siuru lendu jälgides arvatakse, et ta viib hinge järgmisesse maailma.
+
+            Looduse ja vaimu valitseja – Siuru kohalolek toob meelerahu ja tasakaalu. Üks tema tähtsamaid omadusi on tema võime inspiratsiooni tuua, olgu siis kunstniku loometegevusse või inimese vaimsele tasandile. Ta on nagu ilu kehastus, mis inspireerib kõiki elu vorme. Siuru tiibade liikumine on vaikne, kuid samas täis jõudu ja väärikust.
+
+            Välimus ja tähendus rahvaluules – Siuru välimus on erakordne, see on kombineeritud erakordse ilu ja elujõu kooslusest. Rahvaluules on sageli juttu, kuidas Siuru on seotud inimeste lootuste ja unistustega, olles linnu kujul, kelle laulu kuuldes võtab inimene vastu elu jõudu, inspiraatsiooni ja ka vabaduse.
+
+        Siuru seos muinasjuttude ja rahvalauludega:
+
+        Siuru on sageli kajastatud rahvalauludes kui iidne ja tark olend, kes on seotud loodusvõimude, elu ja surma tsüklite, loova vabaduse ja iluga. Tema kohalolek rahvalauludes on justkui jumaliku inspiratsiooni ja rahu toomine maa peale. Ta on midagi enamat kui lihtsalt linnu kujutis – ta esindab elu ilu, selle uue ja värske alguse jõudu.
+
+        Siuru on samuti sageli kujutatud kui tuleviku viibija, kes toob sõnumeid tulevikust ja aitab inimesel oma elu tähendust mõista. Ta on nagu poeetiline ja elujõuline olend, kes on samuti seotud looduse igavese rütmiga.`,
+        slug: 'siuru'
+    },
+    {
+        id: 39,
+        name: 'Mardus',
+        price: '***',
+        protection: '',
+        image: imageBeasts[38],
+        description: 'Mardus, ka marras, mardajus, marras tähendas Eesti rahvausundis algselt surnut, siis surnu kehast eraldunud hinge või surmahaldjat, hiljem kindlat surmaennet.',
+        fulldescription: `Mardus on Eesti rahvausundis ja mütoloogias esinev kurjakuulutav tegelane, kes on seotud surma, õnnetuste ja mustade jõududega. Ta on laialdaselt tuntud kui negatiivne olend, kelle kohalolek tähistab ohtu või halba saatust. Mardus on mitmesugustes lugudes ja uskumustes esindatud kui paha vaim või surmavaim, kelle ülesanne on tuua hävingut ja häda.
+        Marduse omadused ja tähendus:
+
+            Surma ja õnnetuse kehastus – Mardus on sageli seotud surmaga või sellele eelnevate kurjade sündmustega. Ta võib olla kujutatud kui surma esindaja, kes tuleb võtma inimesi või tooma õnnetusi. Tema kohalolek ja tegevus on seotud elu lõpu ja hirmuga surma ees.
+
+            Välimus ja olemus – Mardust kujutatakse sageli kui tumedat ja õudset olendit. Ta võib olla varjuline, tihti musta või halli kuue ja skelettse keha kujul. Tema silmad on sageli tühjad või punased, kiirgades surmavat külma. Marduse välimus on sageli hirmutav, meenutades näiteks suitsu, varju või varjatud kuju, mille kohalolek toob kaasa ka õudusunenägusid või lohutamatut kurbust.
+
+            Kurja ja kaose tooja – Mardus on sageli seotud kaose, haiguste ja õnnetuste levimisega. Kui rahvas uskus, et Mardus võib tulla teatud hetkedel, siis olid inimesed valmis tegema ohvreid või palvetama, et tema kohalolek neile ei tooks hävingut.
+
+        Marduse roll rahvaluules:
+
+        Mardus esindab rahvaluules sageli elu tumedat poolt, mis on seotud häda ja õnnetusega. Kui rahvalood räägivad Mardusest, siis on tegemist alati negatiivse tegelasega, kes on ohtlik ja rahustamatult tegutsev. Ta ei ole lihtsalt paha vaim, vaid ka üks tähtsamaid esindajaid vanade eestlaste uskumustes, kus tema kohalolek tähistab surma või negatiivset saatust.
+        Mardus ja loodusvaimud:
+
+        Mardus on sageli seotud ka teiste mütoloogiliste olenditega, näiteks Jumala, Saatana või teiste surmaga seotud olenditega, nagu Kotermann. Tema tegemised on tihti seotud mustade jõududega ja looduses toimuva tumedama poolega. Samuti võib teda tõlgendada kui loodusvaimu, kes ilmub siis, kui inimene on teinud midagi loomuga vastuolus.
+        Mardus rahvaluules ja uskumustes:
+
+        Mardus on olend, keda inimesed kartsid ja vältisid. Rahvalugudes on sageli juttu sellest, kuidas Mardus võib inimesi kiusata või kui teda ei aeta minema, toob ta kaasa tervisehädad, õnnetused või isegi surma. Marduse nimel toimusid mõnikord ohverdused ja palved, et leevendada tema viha ja väldida halba saatust.`,
+        slug: 'mardus'
+    },
+    {
+        id: 40,
+        name: 'Maaalused',
+        price: '***',
+        protection: '',
+        image: imageBeasts[39],
+        description: 'Maa all elavad müstilised olendid.',
+        fulldescription: `Maaalused on Eesti rahvausundis ja mütoloogias esinevad müstilised olendid, kes elavad maa all, justkui surnutemaailma või loodusvaimude valitsejatena. Maaalused on seotud maa, alamaailma ja maapõue ning sageli peetakse neid olenditeks, kes on seotud maa all toimuvate nähtustega, nagu mägedes, koopates või isegi mineraalide ja maapõue varandustega.
+        Maaaluste omadused ja tähendus:
+
+            Maaaluste elu ja tegevus – Maaalused on maagilised ja müstilised olevused, kes elavad maa all, sageli koobastes, tunnelites või maa-alustes linnades. Neil võib olla igasuguseid erinevaid olemusi – mõnikord on nad väikeste, inimeste moodi olendite kujul, aga teinekord ka palju suuremad ja tugevamad. Nad võivad olla surmavaimud, kes elavad maa-alustes maailma külmemates ja pimedamates osades, kuid samas on nad seotud looduse tasakaalu ja maa eluhoiuga.
+
+            Välimus ja iseloom – Maaaluseid kujutatakse tihti inimeselike või loomade kehastusena, kuid nad võivad olla ka täiesti muundunud olendid. Kõige levinumad kujutused näitavad neid kui väikseid, varju hoidvaid, silmapaistmatult musta või halli värvi olendeid, kes on tihti varustatud maagiliste jõudude või võimetega. Mõnikord on nad inimsarnased, aga nende välimus on sageli moonutatud või veidi hirmutav.
+
+            Maa-aluste roll ja funktsioon rahvaluules – Rahvaluules on Maaalused sageli seotud alamaailma ehk Manalaga, mis on surnute maailm või maa all asuv elu. Nad võivad olla maa-aluse elu valitsejad või vaimud, kes vaatavad üle maapõue maailmas toimuvat. Nad kaitsevad maapõue varandusi, nagu aarded ja kalliskivid, ning on tihti seotud surma, õnnetuste ja maapõue jõududega.
+
+            Seos loodusvaimudega – Maaalused võivad olla ka loodusvaimud, kes elavad maa-alustes koobastes või allmaailma õõnsustes, ja on seotud maa elutsükliga. Rahvasuundus räägib tihti, kuidas Maaalused aitavad viljakust, looduse tasakaalu või viljakat saaki. Samuti räägitakse lugusid, kus Maaalused annavad inimestele tarkust või, vastupidi, karistusi, kui nende maapõue piire on ületatud.
+
+        Maaaluste kujutamine rahvapärimustes ja uskumustes:
+
+            Kaitsjad ja ohvritootjad – Maaalused on tihti kujutatud kaitsjatena, kes hoiavad maa-aluseid rikkusi või loodusjõude. Rahvaluules on lugusid, kus need olendid kaitsevad aarded ja hoiatavad inimesi mitte minekuks liiga sügavale maa alla või maa-alustesse paikadesse, mis võivad olla täis ohtu. Teisalt esinevad lugudes ka need Maaalused, kes varastavad inimesi või toovad neid maa alla, et nad jääksid igaveseks elama oma salapärast elu.
+
+            Üksildased ja maagilised olevused – Kuna Maaalused elavad maa all, kus ei ole päikest ega elu tavalises mõttes, siis kujutatakse neid tihti üksildaste, saladusi hoidev olenditena, kellel on võime kasutada maagilisi jõude või mõjutada inimeste elu. Nad on tihti seotud looduse kõige saladuslikumate külgedega, nagu maa sisemuses asuvad jõud, samuti elamise ja surma vahel.
+
+            Maa-aluste ja surma suhe – Maaalused on sageli seotud surma ja hinge rännakutega. Nad on need, kes viivad inimese teise maailma või on seotud surnute vaimude ja nende eluviisiga. Maa-aluste kohalolek võib tähendada surma, lõppu või uut algust, sõltuvalt müüdist või rahvaluulekontekstist.
+
+        Kohad ja lood, kus Maaaluseid kohata võib:
+
+        Rahvasuundus räägib, et Maaaluseid võib kohata erinevates kohtades, kus maa on avatud, nagu mägised piirkonnad, koopad ja varjatud, pimedad alad. Nende elupaigad võivad olla ka salajased paigad, kus maapõue jõud ja elu koondavad end üheks terviklikuks maailmaks.
+
+        Kuna Maaalused on seotud maa-aluse elu, loodusvaimude ja surmaga, siis on nad mitmetes kultuurides, sealhulgas Eesti rahvaluules, müütilised tegelased, kellel on suur tähtsus looduse tasakaalu ja elu mõistmise seisukohalt.`,
+        slug: 'maaalused'
     },
 ];
