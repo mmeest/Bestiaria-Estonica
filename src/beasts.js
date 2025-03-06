@@ -1,4 +1,4 @@
-const imageBeasts = Array.from({ length: 40 }, (_, i) =>
+const imageBeasts = Array.from({ length: 57 }, (_, i) =>
     require(`./assets/images/${(i + 1).toString().padStart(3, '0')}.jpg`)
   );
 
@@ -461,7 +461,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[12],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Müütilised tegelased rahvuseeposest "Kalevipoeg".',
         fulldescription: `Murueide Tütar on Eesti rahvapärimuses tuntud kui kaunis, kuid salapärane ja ohtlik metsolend. Ta elab soodes, metsades ja heinamaadel ning ilmub inimeste ette sageli kauni neiuna, kes võib võluda, eksitada või isegi hukka saata.
         Murueide Tütre välimus ja iseloom
 
@@ -505,7 +505,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[13],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Äikesega ja tormiga seotud jumalus Eesti rahvapärimuses.',
         fulldescription: `Kõu on Eesti rahvapärimuses seotud äikese, pikse ja tormiga. Ta on üks olulisemaid loodusvaime, keda peetakse taeva ja ilma valitsejaks. Kõu ei ole pelgalt loodusnähtus, vaid ka jumalik olend või vaim, kelle viha ja vägi avaldub äikeses, mürinas ja välgusähvatustes.
         Kõu iseloom ja omadused
 
@@ -551,7 +551,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[14],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Äikese ja välguga seotud jumalus Eesti mütoloogias.',
         fulldescription: `Pikne on Eesti rahvapärimuses ja mütoloogias oluline jumalus, kes on seotud äikese, välgu ja tormidega. Ta on taevajumal ja pikejumal, kelle viha ja vägi ilmnevad tormide ja välkude kaudu. Pikne on üks tähtsamaid loodusvaime, kellel on suur mõju loodusele, eriti viljakusele ja ilmastikuoludele. Pikne on sageli seotud ka tuletulekahjude ja sepadöövustega, kuna temas nähakse metalli valajat ja võimsate relvade loojat.
         Pikne iseloom ja omadused
 
@@ -591,7 +591,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[15],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Loodusväge esindav lendav vaim.',
         fulldescription: `Lendva on Eesti mütoloogias tuntud olend, keda peetakse õhuvaimuks või õhujumaluseks, kellel on võime lendama tõusta. Lendva on tihti seotud lindudega, tuulte ja tuulikutega, olles mingil määral sarnane mõnele teisele mütoloogilisele olendile, kellel on lennuvõime.
         Lendva omadused ja iseloom:
 
@@ -623,7 +623,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[16],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Ajutiselt või alaliselt hundiks muutunud või muudetud inimene.',
         fulldescription: `Libahunt on Eesti mütoloogias tuntud olend, kellel on kaksteist isiksust – inimene ja hunt – ning teda on peetud mõõdukas ja kurjuses seiklevaks olendiks. Libahunt kuulub võlurite ja mürgiste olendite hulka, kuid ta on tihti samasugune mütoloogiline tegelane kui teised keelekõverdajad, kes kontrollivad, kuidas metsas elatakse.
         Libahundi omadused ja välimus:
 
@@ -642,7 +642,7 @@ export const beasts = [
         price: '***',
         protection: '',
         image: imageBeasts[17],
-        description: 'Öine painajavaim, kes põhjustab halbu unenägusid ja hingamisraskusi.',
+        description: 'Hirmuäratav põrguolend.',
         fulldescription: `Põrgu on Eesti mütoloogias kurjusest ja allakäigust tuntud paik, millele tihti omistatakse kurjad olendid ja need, kes on teinud midagi halba või on täiesti kurjad. Põrgulise puhul aga räägitakse sellest kui müstilisest olendist, kellel on välja kujunenud omadused ja funktsioon olla üheks Põrgu esindajaks või teenriks, kes püüab pimeduse jõududega hirmutada inimesi ja tundeid.
         Põrgulise omadused ja välimus:
 
@@ -1062,7 +1062,7 @@ export const beasts = [
         price: '***',
         protection: 'Halba ennet tähistav loom',
         image: imageBeasts[30],
-        description: 'Tuhala karstialadel elavad nõiad, kes käivad sealsel kaevul vihtlemas.',
+        description: 'Musta kassi nägemine tähendas halba ennet.',
         fulldescription: `Musta kass on Eesti rahvafolklööris üks salapäraseid ja hirmuäratavaid olendeid, kellel on sageli seotud musta maagia ja ebauskudega. Must kass on tihti arvatud olevat seotud surma, õnnetuste, aga ka kurja saatusega. Siiski võib tema kuvand varieeruda sõltuvalt kontekstist ja ajaloost.
         Välimus ja omadused:
 
@@ -1127,7 +1127,7 @@ export const beasts = [
         price: '***',
         protection: 'Maapeale uitama jäänud kurja inimese hing.',
         image: imageBeasts[33],
-        description: 'Tuhala karstialadel elavad nõiad, kes käivad sealsel kaevul vihtlemas.',
+        description: 'Külmking on eesti ja liivi rahvausundis (Eestis eelkõige Saaremaal, Muhus ja osalt Hiiumaal) tuntud üleloomulik pahatahtlik olend.',
         fulldescription: `Külmking on Eesti mütoloogias üks õudusväärne ja hirmuäratav olend, keda peetakse sageli surmaga seotud või selle eelneva kohalolekuga. Tema nimi viitab tema külmale, külmetavat ning sageli surnuga seonduvale olemusele. Külmkinga käsitleti kui elu ja surma piiri olendit, kelle kohalolek oli märk lähenevast surmast või õnnetusest.
 
         Külmkinga uskumustes on sageli kujutatud teda kui inimesekujulist olendit, kelle keha on külm ja jäine, nagu külmunud. Tema jalad või kingad võivad olla erilised, kuna see olend liigub ja kõnnib justkui teistele inimestele nähtamatult, ent tema kohalolek toob kaasa külmuse ja surma lähedaloleku.
@@ -1281,5 +1281,402 @@ export const beasts = [
 
         Kuna Maaalused on seotud maa-aluse elu, loodusvaimude ja surmaga, siis on nad mitmetes kultuurides, sealhulgas Eesti rahvaluules, müütilised tegelased, kellel on suur tähtsus looduse tasakaalu ja elu mõistmise seisukohalt.`,
         slug: 'maaalused'
+    },
+    {
+        id: 41,
+        name: 'Näärisokk e. Jõulusokk',
+        price: '***',
+        protection: '',
+        image: imageBeasts[40],
+        description: 'Sarviline olend kes ilmub välja talvise pööripäeva paiku.',
+        fulldescription: `Näärisokk või Jõulusokk on Eesti folklooris tuntud tegelane, kes on seotud talvise pidustusega, eriti jõuludega. Tema nimi tuleneb sõnadest „näär“ (mida kasutatakse talvepühade, eriti jõulude tähistamiseks) ja „sokk“, mis viitab tegelasele, kellele on omistatud erilised omadused ja roll.
+
+        Näärisokk on sageli kujutatud kui jõuluvana või kellegi tema sarnase olevus, kes toob lastele kingitusi ja head meeleolu. Kuid erinevalt Lääne-laste jõuluvana kujust on Näärisokk Eesti traditsioonides tihti seotud rohkem maa ja loodusega. Ta võib olla eakam ja habemega, sageli riietatud talvistesse riietesse, nagu sooja karusnahast kuubed ja suvised saapad. Traditsiooniliselt ei ole ta alati heatahtlik tegelane nagu tuntud jõuluvana, vaid pigem vähenenud kujul ja tal võib olla ka karm käitumine, olles sarnane põhjamaade vanema jõuluvana kujutistele, kes võib olla ühtlasi nii õpetaja kui ka "hirmutaja".
+
+        Eestis võib olla ka erinevaid kohalikke variatsioone Näärisoki kujust. Mõnedes piirkondades räägitakse ka Näärisokist, kes käib külas, et teha nalju, lugeda mänge ja laulda talvevõlumisügisel, et kodudes tervist ja õnne hoida.
+
+        Täpne Näärisoki kujutis varieerub Eesti erinevates piirkondades, kuid üldiselt on tegemist jõulude ja talvise pidustusega seotud tegelasega, kelle ülesanne on tuua soojust ja rõõmu talvistesse külma ja pimedasse aega.`,
+        slug: 'näärisokk'
+    },
+    {
+        id: 42,
+        name: 'Eksitaja e. Essütäjä',
+        price: '***',
+        protection: '',
+        image: imageBeasts[41],
+        description: 'Pahatahtlik haldjas, kes üritab inimesi metsa ja sohu eksitada.',
+        fulldescription: `Eksitaja (või mõnes kohalikus murdes ka „Eksitegu“) on Eesti mütoloogias ja rahvapärimustes tuntud tegelane, keda seostatakse valede, petmiste ja eksituste tegemisega. Tema roll on sageli seotud pettuse, hirmu või segaduse loomisega, olles omamoodi "tumedam" kuju teiste mütoloogiliste tegelaste kõrval.
+
+        Eksitaja on tavaliselt kujutatud kui salakaval, pehme või nutikas olevus, kellel on võime inimesi petta, eksitada või viia neid valedele rajale. Ta võib esineda erinevates vormides ja tihti on ta seotud üleloomulike või maagiliste omadustega. Sageli on Eksitaja suuteline muuta oma välimust, et petta teisi, näiteks võtta teise isiku kuju või panna inimesed uskuma, et nad näevad midagi, mida tegelikult ei eksisteeri.
+
+        Eestis, nagu ka paljudes teistes kultuurides, on eksitaja-likud lood olnud õpetlikud ja neil on tihti moraalne tähendus. Sageli illustreerivad nad, kuidas vale ja eksitamine võivad tuua kaasa kurbi tagajärgi, nagu õnnetused, kaotus või inimeste vaheline usalduse kadumine. Seetõttu on Eksitaja sageli ka hoiatav tegelane, kelle kaudu edasi antakse õpetus aususe ja õiguse kohta.
+
+        Eksitaja olemus võib varieeruda sõltuvalt kohalike traditsioonide ja legendide eripäradest. Ta võib olla väike ja õel, aga ka suur ja hirmuäratav, mõnikord esindades looduse või inimühiskonna pahempoolset poolt, mis viitab eksimise ja eksitamise valdkonnale.`,
+        slug: 'eksitaja'
+    },
+    {
+        id: 43,
+        name: 'Ussikuningas',
+        price: '***',
+        protection: '',
+        image: imageBeasts[42],
+        description: 'Usside valitseja, keda kujutatakse suure harja või krooniga.',
+        fulldescription: `Ussikuninga ehk Ussikuninga tegelane on osa Eesti rahvapärimustest ja mütoloogiast, olles seotud sageli nii loodusjõudude kui ka vanade uskumustega. Tema kuju on tihti seotud kurja, ohtliku või salakavalusega, kuid samas võib ta esindada ka looduse igavese ringluse ja tasakaalu mõistet.
+
+        Välimus ja omadused: Ussikuningas on sageli kujutatud kui suur ja võimas madude kuningas, kellel on võime juhtida või valitseda madusid ja muid roomajaid. Ta võib olla ise uss, suur ja hiiglaslik, või inimese ja ussi segu. Sageli on tema välimus uhke ja kurjakuulutav, omades säravat, peegelduvat nahka, millel on salapärane ja müstiline vägi.
+
+        Ussikuninga pea on sageli kujutatud kui jumaliku väega olend, kellel on teravad silmad ja silmatorkavad omadused, mis viitavad tema looduse jõudude ja maagilise võimekuse valdamisele. Tihti on tal ka maagiaga seotud võimed, mille kaudu ta saab mõjutada inimesi või isegi loomi ja loodust.
+
+        Mütoloogia ja tähendus: Ussikuninga lood on sageli seotud maa ja looduse viljakuse, aga ka ohtude ja kurjade jõududega. Tema kujutis on tihti ka seotud igavese ringluse mõttega — maapinda söövad ja sealt välja kasvanud ussid võivad olla sümboliks elu ja surma tsüklile. Samuti peetakse teda sageli looduse tasakaalu hoidjaks, kellel on võime ühtlasi aidata ja takistada.
+
+        Eestis on mitu erinevat müüti ja lugu, kus Ussikuninga tegemised on seotud eluõnne või -muredega. Mõnes loos võib ta pakkuda inimesele suuri auhindu, aga samas võib ta ka tahta inimese hinge või olla seotud katsumustega, mis tuleb ületada. Ussikuninga kuju võib olla ka seotud rahaga, varandusega või elatisega, näiteks võib ta pakkuda küllust, kuid ainult siis, kui inimene on valmis andma talle midagi vastutasuks.
+
+        Ussikuninga kuvand on läbi ajaloo esindanud looduse ja elu voogu, mis võib olla samaaegselt nii kasulik kui ka ohtlik.`,
+        slug: 'ussikuningas'
+    },
+    {
+        id: 44,
+        name: 'Koit ja Hämarik',
+        price: '***',
+        protection: '',
+        image: imageBeasts[43],
+        description: 'Müütilised kujud kelle abil kirjeldatakse põhjamaiseid pikki öid.',
+        fulldescription: `Koidu ja Hämariku tegelased on Eesti rahvaluules ja mütoloogias seotud päevavalguse ja öö ehk valguse ja pimeduse vahekorra kujunditega. Nad on sageli kujutatud vastandlike, kuid omavahel tihedalt seotud olenditena, kes valitsevad päeva ja öö vaheldumise üle.
+        Koidu (hommikune koit) kujutis:
+
+        Koit ehk Koidu on hommiku valgust toov jumalanna või vaim, keda peetakse päeva alguse ja uue elu ning lootuse toojaks. Tema kohalolek toob päikesetõusu, valgustab maailma ja algab uus päev. Koidu tegelaskuju on sageli seotud elu ja kasvu alustamisega, samuti on teda peetud uue päeva tõusmise, valguse ja looduse ärkamise sümboliks. Eesti rahvapärimuses oli Koidu kohalolek seotud ka looduse viljakuse ja kasvu algusega, mis kajastus igapäevaelu ja talutöös.
+
+        Välimus ja omadused: Koit on tihti kujutatud kui noor ja ilus naine, kelle riided säravad nagu hommikune valgus, mõnikord on ta vaevu nähtav või justkui õrn udu, mis hajub päikesekiirtega. Tema ilmumine toob kaasa rahu ja tasakaalu, värskendades loodust ja kõiki elusolendeid. Koidu mõju on see, et päike tõuseb, päev algab, ja maailm ärkab.
+        Hämariku (õhtune hämarus) kujutis:
+
+        Hämarik on päikese loojanguga seotud tegelane, kes toob pimeduse ja öö maailma. Ta on koiduse vastand ja tavaliselt seostatakse teda õhtuse ja öise varjus olemisega. Hämariku kuju esindab enamasti ööd, varju ja kõike, mis on seotud päeva lõppemise ja vaikuse saabumisega. Rahvapärimustes on Hämarik sageli müstiline tegelane, kelle kohalolek toob esile pimeduse ja rahu, kuid ka saladused ja eksitused.
+
+        Välimus ja omadused: Hämarik on tihti kujutatud kui tume, salapärane olend või naine, kelle riided on tumedad ja kes on tihti seotud öödega, kui maailm on vaikus ja varjus. Tema kohalolek toob kaasa öövaikuse ja rahu, aga samas ka hirmud ja mured, mis seostuvad öödega. Hämariku ilmumine annab märku, et päevasündmused saavad lõpu ja tuleb aeg, mil kõik on rahulik ja vaikne, kuid ka ootamatuste ja eksituste aeg.
+        Koidu ja Hämariku tähendus:
+
+        Koidu ja Hämariku tegelaskujud sümboliseerivad looduse igavest tsüklit — öö ja päeva vaheldumist. Koidu ja Hämariku kaudu peegelduvad ka elu ja surma, teadmise ja teadmatusse minekuga seotud mõtted. Koidu esindus on elu, uue alguse ja valguse toomine, samas kui Hämarik toob esile lõpu ja pimeduse, mis viib teadmatusse ja rahu.
+
+        Mõlemad tegelased on olulised rahvapärimustes, andes edasi looduse tsüklit ja nende vastandlike jõudude tasakaalu, mis annavad igale päevale ja ööle oma kindla koha maailmas.`,
+        slug: 'koit_ja_hämarik'
+    },
+    {
+        id: 45,
+        name: 'Viruskundra',
+        price: '***',
+        protection: '',
+        image: imageBeasts[44],
+        description: 'Kagu-Eestis tuntud majahaldjas.',
+        fulldescription: `Viruskundra on Eesti rahvapärimusest ja mütoloogiast tuntud tegelane, kes esindab vanade uskumuste järgi looduse, metsade ja metsikuse jõude. Tema nimi tuleneb sõnast „virus“, mis viitab tihti metsa või looduse ürgsusele ja metsikusele. Viruskundra on sageli seostatav metsade, metsloomade ja looduse kaitsmisega, kuid ta võib esindada ka karmi ja salapärast külge, mis on omane metsadele ja loodusjõududele.
+        Välimus ja omadused:
+
+        Viruskundra kujutis on sageli seotud metsade ja looduslike kohtadega. Teda peetakse tavaliselt tugeva ja silmapaistva tegelasena, kellel on metsaga tihe side. Ta võib olla kujutatud kui pikk ja võimas mees, kellel on metsiku välimusega keha, sageli metsast pärit rõivastes või loomade nahkades. Tema juuksed ja habe võivad olla pikad, metsikud ja tihti kaetud lehtede, okste või loomasüljega, andes talle loomuliku ja ürgse välimuse.
+
+        Viruskundra on seotud looduse ja maa puutumatu jõu ning metsade kaitsega, aga samas on ta sageli ka ohtlik tegelane, keda tuleb karta. Ta võib olla kaitsev metsade ja looduse suhtes, aga kui keegi rikub looduse tasakaalu, võib Viruskundra muutuda ka karistavaks jõuks. Tema kohalolek on sageli seotud metsaliste, näiteks huntide või karudega, kelle kaudu ta võib maailmas tasakaalu hoida.
+        Mütoloogilised lood ja tähendus:
+
+        Viruskundra kuju on seotud looduse ürgse jõu ja metsade kaitsmisega. Mütoloogiliselt esindab ta looduse karmi poolt, olles üks nendest tegelastest, kes püüab kaitsta maad ja metsade tasakaalu. Tema lood tihti räägivad inimestest, kes üritavad loodusjõududega mängida, aga kannatavad siis tagajärgi. Viruskundra tegelane on oluline ka metsarahva seas, olles looduse kummardaja ja metsade vaimne kaitsja.
+
+        Samuti on Viruskundra seotud maagiliste omadustega — ta võib näiteks tervendada haavu või tuua esile loodusjõud, et aidata inimesi keerulistes olukordades. Samuti on temaga seotud mõtted metsas ekslemisest, mis viitab looduse keerukusele ja ohtlikkusele, kui inimene ei ole loodusesse piisavalt lugupidavalt suhtunud.
+
+        Viruskundra võib esindada ka looduse igavese ringluse ja tasakaalu mõtet, olles looduse tsüklite jälgija ja kaitsja. Tema olemasolu on sageli vajalik, et hoida looduse ja inimkonna vahel tasakaalu, et ei tekiks liigset rahutust või kahjustusi.
+        Tähendus rahvasuus:
+
+        Viruskundra on tihti seotud kaitse ja tasakaalu hoidmisega looduses, olles tegelane, kellele ollakse alati tänulik looduse eest, aga samas tuleb teda ka karta. Ta on rahvasuus olnud hoiatuseks inimesele, et ta ei peaks loodust liiga palju kuritarvitama, sest looduse karmi kaitsjana võib Viruskundra tuua tagajärgi sellele, kes looduse tasakaalu rikub.`,
+        slug: 'viruskundra'
+    },
+    {
+        id: 46,
+        name: 'Peko',
+        price: '***',
+        protection: '',
+        image: imageBeasts[45],
+        description: 'Setumaa jumalus, kes valitses ilma ning kaitses põlde ja saaki.',
+        fulldescription: `Peko on Eesti mütoloogias ja rahvapärimustes tuntud jumal, keda seostatakse eriti viljakuse, põllumajanduse ja saagiga. Peko on üks tähtsamaid jumalaid, kellele pakkusid austust paljud Eesti talupidajad ja põllumehed. Tema kuju on tihedalt seotud maaga, looduse tsüklitega ja igavese viljakuse tagamisega.
+        Välimus ja omadused:
+
+        Peko kujutis on tihti tugeva ja aukartust äratava mehena, kes on suur ja võimas, sageli seotud loodusjõudude ja maaga. Ta on sageli kujutatud kui mehekuju, kellel on pikk, hall või valge habe, ja kandes tavaliselt talutööd simuleerivaid riideid. Tema kohalolekust kiirgab jõudu ja kindlustunnet, kuna ta on seotud põllumajanduse hea saagi ja viljakuse tagamisega. Tema keha ja juuksed võivad olla kaetud looduslike materjalidega, nagu taimede või viljasaagi elemendid, viidates tema seotusele looduse ja saagiga.
+
+        Peko iseloomustatakse sageli kui tarmukat ja tugevate omadustega jumalat, kellel on võime tagada maa viljakus. Tema vägi ulatub kõikjale, kus on elu ja maapind, ning tema kohalolek on tagatiseks, et igal aastal tuleb hea saak.
+        Mütoloogilised lood ja tähendus:
+
+        Peko on tihti seotud viljakuse, hea saagi ja igavese elu põhimõtetega. Paljud Eesti talupojad ja põllumehed pöördusid tema poole palvetes hea saagi ja viljakuse tagamiseks. Peko lood räägivad sellest, kuidas ta kaitseb ja hoiab maad viljakana, pakkudes õnnistust neile, kes oskavad maad hästi töödelda. Samuti võib Peko olla seotud ka looduslike vaenlaste – näiteks tormide ja näljahädade – vastu võitlemisega, olles talupojale tõeline kaitseingel.
+
+        Eesti rahvaluules on mitmeid lugusid Peko kohta, mis räägivad tema võimetest, kuidas ta hoiab loodust tasakaalus ja kaitseb inimesi loodusõnnetuste eest. Peko on seostatav ka jumalate maailmaga, kus ta kuulub teiste viljakusjumalate hulka, nagu näiteks Maanus ja Taara. Peko lugude kaudu on edasi antud lood viljakuse ja looduse tsüklitest, mis on lahutamatult seotud inimeste elu ja igapäevaste toimetustega.
+        Peko ja rahvasuus:
+
+        Peko on rahvasuus olnud kodumaise viljakuse ja maaelu kõrgeim jumal. Tema kuju on tihti kutsutud esile talgute ja põllutööde tähistamisel, kus inimestele meenutatakse looduse tasakaalu tähtsust. Peko oli kindel kaitseingel, kelle juurde pöörduti palvetes viljakuse, kasvu ja igavese elu eest.
+
+        Peko kujutis on ka õrnalt maagiline ja toob meelde looduse ürgset, elutarkust, kus kõik eluvormid on tasakaalus. Samuti usuti, et Peko suhtes peab olema suure austusega ja tema vastu ei tohi käituda vastutustundetult, kuna ta on looduse valitseja ja kaitsevägi.
+        Kokkuvõte:
+
+        Peko on Eesti mütoloogias viljakuse ja maa jumal, kelle kohalolek ja vägi tagavad hea saagi, maapinna viljakuse ja looduse tasakaalu. Tema kohalolek tähendab elu kasvu ja elu pidevat tsüklit. Ta on looduse ja maa kaitse, olles väga oluline tegelane, eriti põllumajanduslike tegevuste ja talupojatööd seostatakse tihti tema jumalikuga.`,
+        slug: 'peko'
+    },
+    {
+        id: 47,
+        name: 'Hallid',
+        price: '***',
+        protection: '',
+        image: imageBeasts[46],
+        description: 'Väikesekasvulised loodusevaimud.',
+        fulldescription: `Hallid on tegelased Eesti mütoloogias, keda võib seostada metsade, looduse ja mõningate teiste müstiliste vaimudega. Nende täpne olemus võib varieeruda sõltuvalt allikatest ja lugudest, kuid sageli on neid peetud salapärasteks olenditeks, kelle välimus ja käitumine on inimestele sageli arusaamatud ja mõistatuslikud.
+        Hallide kirjeldus ja omadused:
+
+            Välimus:
+            Hallid on tihti väikesed ja õrnad olendid, kellel on halli või hallikas-pruuni värvusega nahk või karv, mis võimaldab neil looduses peituda ja metsa varjus liikuda. Mõnes loos on nad isegi halli värvusega, mistõttu on neid keeruline ära tunda, kui nad ei liigu või ei kasuta oma võimekusi. Hallide välimus on tavaliselt inimesele sarnane, kuid nende jooned on sageli ebatavalised — näiteks suurenenud silmad, kitsamad kehad või peened näojooned.
+
+            Looduse ja metsaga seos:
+            Hallid on sageli seotud looduse vaimudega, kelle ülesanne on hoida tasakaalu looduses ja kaitsta metsi või looduse pühasid kohti. Nad võivad olla metsa vaimud, kes ilmuvad sageli varjus või öösiti, et hoida inimese tegevust eemal ohtlikest või keelatud paikadest. Samuti peetakse neid tegelasteks, kes kaitsevad loodust selle kuritarvitamise eest.
+
+            Käitumine ja võimed:
+            Hallid võivad käituda kummaliselt ja ebamugavalt inimestega, segada neid või eksitada, kui nad ei pea inimeste käitumist looduskaubanduses õigeks. Samuti räägitakse, et nad võivad inimesi metsas eksitada või neid häirida, kui nad astuvad välja looduse püha tasakaalu häirima. Kuna nad on looduse kaitsjad, võivad nad olla ka metsa kaitsjad, kes hoiavad tasakaalu ning on väga ettevaatlikud.
+
+            Kultuurilised tähendused ja tähendused:
+            Hallide tegelaste kohta on folklooris mitmeid erinevaid tõlgendusi. Mõnes mõttes esindavad nad elu ja surma vahepealset maailma, olles mõisted või vaimud, kes seovad elavat loodust ja allmaailma. Hallid võivad olla ka tegelased, kes on metsade ja looduse hingestatud vaimud, kelle ülesanne on tagada looduse tasakaal ja kaitse.
+
+        Hallide rolli mõistetakse sageli kui looduse vaimude kaitsjate või kergelt eksitavate entiteetide rolli, mis aitab inimesi mõista looduse salapärasust ja võimu.`,
+        slug: 'hallid'
+    },
+    {
+        id: 48,
+        name: 'Palunõid',
+        price: '***',
+        protection: '',
+        image: imageBeasts[47],
+        description: 'Metsades ja rabades elav võimas nõid.',
+        fulldescription: `Palunõid on tegelane Eesti mütoloogiast ja rahvapärimustest. Ta on tavaliselt seotud metsade, rabade ja soodega ning teda kujutatakse sageli salapärase ja võimsa nõiana, kes võib aidata või karistada inimesi sõltuvalt nende tegudest ja suhtumisest loodusesse.
+        Palunõia iseloom ja omadused:
+
+            Elupaik: Tavaliselt elab sügaval metsades või rabades, kaugel inimeste asulatest.
+            Välimus: Kirjeldused varieeruvad, kuid sageli kujutatakse teda vanema, tumedates rõivastes või looduslikest materjalidest (nt samblast või loorberist) tehtud riietega nõiana. Mõnikord öeldakse, et tal on ka loomalaadsed jooned.
+            Võimed: Tuntud maagiliste oskuste ja loitsude poolest, võib mõjutada ilma, eksitada inimesi metsas, tervendada või neile needuse peale panna.
+            Seosed loodusega: Tal on tugev side metsavaimude ja loomadega, teda peetakse metsikute ja pühade paikade valvuriks.
+
+        Palunõid meenutab mõnes mõttes ka Skandinaavia ja slaavi mütoloogia metsanõidu, kuid on Eesti folklooris oma eripäradega tegelane.`,
+        slug: 'palunõid'
+    },
+    {
+        id: 49,
+        name: 'Pell',
+        price: '***',
+        protection: '',
+        image: imageBeasts[48],
+        description: 'Haldjasarnane metsavaim.',
+        fulldescription: `Pell on tegelane Eesti mütoloogiast, kuigi tema kohta on vähem laialdaselt tuntud lugusid kui näiteks metsavanast või krattidest. Mõnes rahvapärimuses kirjeldatakse Pelli kui salapärast metsavaimu või metshaldjat, kes on seotud metsloomade ja loodusjõududega.
+        Pelli iseloom ja omadused:
+
+            Elupaik: Sügaval metsades, sageli ürgsetes ja puutumatutes paikades, kuhu inimesed harva satuvad.
+            Välimus: Olenevalt kirjeldusest võib Pell olla kas kaunis ja graatsiline haldjasarnane olend või metsikuma ja ürgse välimusega kaitsevaim.
+            Seos loodusega: Peetakse metsade ja loomade kaitsja vaimuks, kes võib eksitada inimesi või ilmuda neile erilistes tingimustes, näiteks udusel hommikul või loojangu ajal.
+            Mõju inimestele: Mõnes loos aitab ta eksinud rändureid, kuid võib ka neid, kes metsa pahatahtlikult kohtlevad, segadusse ajada või neile halba õnne tuua.
+
+        Pelli võib pidada sarnaseks teiste Eesti folkloori loodusvaimudega, kuid tema kirjeldused varieeruvad suuresti piirkonniti ja allikate kaupa.`,
+        slug: 'pell'
+    },
+    {
+        id: 50,
+        name: 'Rõugutaja',
+        price: '***',
+        protection: '',
+        image: imageBeasts[49],
+        description: 'Rõugutaja on mütoloogiline tegelane, kes hoiab tasakaalu maa ja looduse viljakuses.',
+        fulldescription: `Rõugutaja on üks Eesti rahvapärimusest tuntud tegelane, kes seondub põllumajanduse ja looduse viljakuse vaimuga. Rõugutaja on tihti kujutatud vanema naise, mõnikord isegi nõiana, kelle ülesanne on viljakust ja saaki tagada, aga samas ka hoiatus ja valvaja nende vastu, kes loodust või elu vähegi ebaõiglaselt kohtlevad.
+        Rõugutaja iseloom ja omadused:
+
+            Välimus:
+            Rõugutaja on sageli kujutatud vanema, töötanud naisterahvana, kelle välimus peegeldab taluelu ja igapäeva elu raskeid tööpäevi. Ta on tavaliselt kõrge, küürus ja väsinud, kuid tema välimuses on tunda ka igavest seost maa ja looduse vaimuga. Tema riided on sageli lihtsad ja kulunud, peamiselt maapealsed, mustad või pruunid toonid, mis annavad talle maalähedase ja esialgse ilme. Rõugutaja võib olla ka kaetud viljaterade, õlgede või jahusüttinud riietega.
+
+            Seos loodusega:
+            Rõugutaja on tihedalt seotud maa, vilja ja põllutöödega. Ta on taluelu vaim, kellele kuulub kontroll looduse ja saagi üle. Tema tegevus ulatub vilja, küpsete põldude ja rehepeksu juurde, ning ta on seostatav eriliste rituaalide ja uskumustega, mis seonduvad saagikuse ja viljakuse tõstmisega. Ta on ka metsade ja põldude valvur, hoides neid kahjustustest ja kaitstes elusloodust.
+
+            Käitumine ja mõju inimestele:
+            Rõugutaja võib olla kas soodne või kurjakuulutav tegelane, sõltuvalt sellest, kuidas inimesed temaga suhtuvad. Kui tal on usaldusväärne seos looduse ja eluga, aitab ta vilja õnne ning tagab hea saagi. Kuid kui tal ei meeldi kellegi käitumine looduses või kui inimene tema vaateid ei järgi, võib ta neid inimesi karistada – näiteks saaki kahjustades või loomi eksitades. Samuti usuti, et ta võib mingil moel segada vilja lõikamist või viia mõne osa saagist kaduma.
+
+            Rahvapärimus ja tähendused:
+            Rõugutaja on oluline osa Eesti maainimeste elust ja uskumustest, olles üks mütoloogilistest vaimudest, kellele omistatakse palju väge ja võimekust. Tema tegelane on lahutamatult seotud põllumajanduse ja looduse tsüklitega, olles samal ajal ka vana ja tark hinge, kellel on võimalus inimesi õpetada looduse väärtustamisest. Samuti viitab tema olemasolu sellele, kuidas inimesed vanasti uskusid, et maa ja saagi viljakus on seotud vaimude ja üleloomulike jõududega.`,
+        slug: 'rõugutaja'
+    },
+    {
+        id: 51,
+        name: 'Tarapita',
+        price: '***',
+        protection: '',
+        image: imageBeasts[50],
+        description: 'Tarapita on seotud looduse viljakuse, kasvu ja tasakaalu hoidmisega.',
+        fulldescription: `Tarapita on üks Eesti mütoloogiliste tegelaste seas, keda seostatakse looduse, viljakuse ja elu ning surma tsüklitega. Ta on sageli esindatud naissoost vaimuna, kellel on tugev side looduse ja viljakusega. Tarapita on mütoloogias seotud elu loomise ja viljakuse tagamisega, olles oma olemuselt maagiline ja elujõuline tegelane, kes kaitseb looduse tasakaalu.
+        Tarapita iseloom ja omadused:
+
+            Välimus: Tarapita kujutatakse sageli kui noort ja elujõulist naist, kelle välimus peegelduks looduse ja elu maagiast. Tema välimus on õrn ja ilus, kuid tal on samas salapärane ja jõuline kohalolek. Tema juuksed on tihti pikki ja tummiselt voolavad, nagu voolavad joad või kevadised rohelised varred, ja neil võivad olla loomulikud elemendid, näiteks lilled, lehed või isegi väikesed loomakesed. Tema nahk on helkiv ja pehme, meenutades looduse värvust, ja tema silmad võivad olla sügavad ja kiirgavad rohelise või kuldse valgusega, mis viitab looduse elujõule ja viljakusele.
+
+            Looduse ja viljakusega seotud jooned: Tarapita on sageli seotud looduse viljakuse ja maaga. Ta on esindaja ja kaitsevaim, kelle kaudu tuleb kevade ja kasvu jõud. Ta võib olla naine, kes elavdab maapinda, soodustab seemnete idanemist ja viljade kasvu. Tarapita on oluline tegelane maaharijate ja põllumeeste seas, kes usuvad, et tema vägi ja kohalolek tagavad hea saagi ja viljakuse.
+
+            Käitumine ja mõju inimestele: Tarapita võib olla väga heatahtlik ja lahke vaim, aidates neid, kes loodust austavad ja järgivad looduse tsüklit. Tema seos viljakusega muudab ta oluliseks tegelaseks põllumajanduses, eriti siis, kui tal on inimestega tasakaalu ja vastastikuse lugupidamise suhe. Siiski, kui inimene teeb loodusele liiga, võib Tarapita olla kergelt karistav ja tuua kahju viljakusele. Seega on tema tegelaskuju seotud looduse tasakaalu hoidmisega.
+
+            Kultuurilised ja uskumuslikud aspektid: Tarapita esindab looduse ja elu tsüklit ning on seotud kõikide elu loomise, viljakuse ja loodusjõududega. Teda peeti sageli looduse tähtsate jõudude kehastusena, kellele tehti rituaale ja palveid, et tagada maapinna viljakus ja elu vohamine. Tema kohalolek looduses tähistab pidevat kasvu, elu ja surma tasakaalu, olles looduse elu ja arenguga tihedalt seotud.`,
+        slug: 'tarapita'
+    },
+    {
+        id: 52,
+        name: 'Tooni ehk Mana',
+        price: '***',
+        protection: '',
+        image: imageBeasts[51],
+        description: 'Tooni ehk Mana roll on elutähtsa tasakaalu hoidmine elu ja surma vahel.',
+        fulldescription: `Tooni ehk Mana on Eesti mütoloogias üks salapärasemaid ja tähenduslikumaid tegelasi, keda seostatakse elu ja surmaga, samuti looduse ja vaimsete jõududega. Tema nimi, Mana, viitab sageli allmaailma või hinge energiale, samas kui Tooni on ka nimi, mis võib esindada elu loomise vaimset või looduslikku jõudu. Tooni/Mana on sageli kujutatud kui naissoost tegelane, kelle roll on tähistada elu ja surma vahepealset ala ning ühendust allmaailmaga.
+        Tooni ehk Mana iseloom ja omadused:
+
+            Välimus: Tooni ehk Mana välimus on sageli seotud looduse ja elu-vaimse tasakaalu kehastusega. Ta võib olla kujutatud kui kõrge ja salapärase kohalolekuga naine, kelle välimus peegeldab loodusjõudude ja elu ning surma tsüklit. Tema nahk võib olla kahvatu, kuid samas ka üllatavalt elujõuline, sageli elutute või surnud maapinna elementide laadselt, näiteks mullased või marmorjad toonid. Tema silmad on sügavad ja tumepruunid või mustad, kiirgades tugevat tarkust ja rahu, mis tuleneb tema olemusest kui elu ja surma vahepealsest vaimust. Tema juuksed võivad olla tumepruunid või mustad, langenud ja rahulikult voolavad nagu öö või pimedus, mõnikord ka tihedalt punutud.
+
+            Seos elu ja surmaga: Tooni ehk Mana on sageli seotud elu ja surma tasakaalu hoidmisega. Ta ei esinda ainult surma, vaid ka elu viimaseid etappe, olles ühenduses elu lõpu ja vaimsusega, mis saadab inimese hingedele järgmist elu või tasandit. Ta võib esindada looduse tsüklit, kus elu ja surm on lõpmatud, kui iga uus elu peab kogema surma ja iga surm võib olla uue elu algus. Tema kohalolek on rahulik ja tasakaalustatud, kuid samas ülimalt võimas.
+
+            Käitumine ja mõju inimestele: Tooni ehk Mana käitumine on sageli rahulik, tark ja tasakaalustatud. Ta on vaim, kes aitab inimestel mõista elu ja surma lõpmatut tsüklit, aidates neil leppida oma saatusega. Kui inimene suudab näha elu ja surma omavahelist ühendust, on ta Tooni ehk Mana soosingus. Samuti on tal võime inimesi juhtida allmaailma või surmajärgsesse ellu. Tema kohalolek ei ole kunagi ähvardav, vaid pigem rahu ja tasakaalu ning elu ja surma arusaama õpetamine.
+
+            Rahvapärimus ja kultuurilised tähendused: Tooni ehk Mana esindab igavese elu ja surma tasakaalu. On uskumus, et ta on looduse ja vaimsuse vaheline ühendus, olles seotud elu hinge ja vaimse maailma rahu ja tasakaalu hoidmisega. Ta on seotud kõikide elu vohamise ja elutsüklite vaheliste ajaloote, samuti seoste ja vaimsusega, mis aitavad inimestel mõista elu ja surma. Selles kontekstis võib Tooni ehk Mana olla looduse vaim, kes järgib ja kaitseb elu ja looduse tasakaalu, olles kehtestatud jumalanna või vaim, kes reguleerib elu ja surma rännakut.`,
+        slug: 'tooni'
+    },
+    {
+        id: 53,
+        name: 'Uku',
+        price: '***',
+        protection: '',
+        image: imageBeasts[52],
+        description: 'Tooni ehk Mana roll on elutähtsa tasakaalu hoidmine elu ja surma vahel.',
+        fulldescription: `Uku on Eesti mütoloogias äikesejumal, kes on seotud taeva ja äikesega ning teda peetakse üheks kõige tähtsamaks jumalaks. Uku oli väga auväärne ja austatud tegelane Eesti rahva seas, kellel oli suur mõju looduse ja ilmastiku üle. Ta oli võimas, sageli rahvaste kaitsejumal ja jõu allikas.
+
+        Uku esindas looduse ja taeva jõudusid, eriti äikest ja tormi. Tavaliselt kujutatakse teda täiskasvanud mehe kujul, keda iseloomustavad valged juuksed, pikk valge habe ja silmad, mis säravad jumalikult. Ta hoiab käes suurt äikesepulka ehk vasarat, mis on sarnane teiste põhjamaade äikesejumalate nagu Thoriga, kuid selles on ka omapäraseid Eesti rahvakultuuri motiive.
+
+        Uku on rahvapärimustes seotud ka viljakuse, ilmasündide ja looduse tasakaalu tagamisega, kuigi kõige rohkem on ta siiski tuntud oma võimsa äikesegodina. Tormide ja välkudega saab Uku maha, kui ta on vihane, aga samas toob ta ka elu ja viljakuse maale vihmavalingute ja looduse tasakaalu kaudu. Uku tegelastekujunduses peegelduvad mitmed loodusjõud, mis on igapäevaelu osaks, kuid samas ka müstilised, kui neid nähti taevast tulenevatena.`,
+        slug: 'uku'
+    },
+    {
+        id: 54,
+        name: 'Taara',
+        price: '***',
+        protection: '',
+        image: imageBeasts[53],
+        description: 'Üks tähtsamaid jumalaid, sageli seotud taeva ja äikese ning sõjaga.',
+        fulldescription: `Taara on Eesti mütoloogias üks olulisemaid jumalaid, kellel on laialdased valdkonnad – ta on sõja, tarkuse ja taeva jumal. Taara on sarnane paljude teiste põhjamaade jumalatega, näiteks soome äikesejumal Ukko, kuid ta on rohkem seotud ka sõda, rahu ja viljakusega. Tema tähendus ulatub kaugele Eesti rahvakultuuri ja uskumustesse, olles mõistetav kui taevane ja looduse tasakaalu tagaja.
+        Välimus
+
+        Taara kujutatakse sageli kui vankumatut, tugevat ja silmapaistvat tegelast. Ta on kõrge, tugev kehaehitusega mees, kandes ajaloolisi sõjariistu ja jalatsite asemel tihti saapaid või kaevumehhaanika stiilis kingi. Tema silmad on tihti kujutatud kuldsete või helepruunid, peegelduvad nagu taeva kuma. Taara kehale on tavaliselt kaetud tugev, keerukalt kaunistatud soomus, mis toob esile tema sõjajumaliku olemuse. Ta kannab ka suuri käevõrusid või õlavarrekeesid, mis annavad tema kehale väge ja au.
+
+        Taara peamine atribuut on suur mõõk või kirves, millega ta sõdides oma vaenlaste vastu astub. Tema sõjatööriistad ei ole aga ainult füüsilised relvad, vaid need on ka püha energia ja vaimse jõu kandjad. Tema sõdalastele andis Taara julguse ja väe, kuid samas pidas ka sõja tasakaalu tagamiseks, et mitte lasta loodusel ja elu kaosesse langeda.
+        Taara kultus ja uskumused
+
+        Taara ei olnud ainult sõjajumal, vaid ka tarkuse ja teadmiste kandja. Teda peeti rahva kaitsjaks, kelle kaudu taevased jõud ja sõda üksteise vastu tasakaalustasid. Taara kultus oli Eestis üsna levinud ja teda kummardati rituaalides, mille käigus pakuti ohvreid, et paluda tema kaitset lahingus või vilja saaki.
+
+        Taara oli seotud ka looduse tsüklitega, sest nagu sõda võib luua uue elu, võib see ka hävitada. Seega oli tema mütoloogiline roll ka viljakuse, maaviljeluse ja elu tasakaalu tagamine. Rahvas uskus, et Taara võib oma müstilise väe ja sõjalise kohalolekuga tuua viljakuse maale või peatada põudade ja katastroofide leviku.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Kuigi Taara on peamiselt tuntud kui sõja ja taeva jumal, on teda sageli võrreldud ka teiste Põhjamaade jumalatega, nagu soome Ukko ja rootsi Thor. Taarale on omane selline vastutus looduse ja inimeste elu üle, mis tegi temast rahvaste ja looduse vahelise tasakaalu tagaja.
+
+        Kuna Taara on seotud ka tarkuse ja sõja strateegiaga, siis oli tema õpetus tähtis sõdalastele ja küladele, kes soovisid oma elu ja sõdu hästi korraldada.`,
+        slug: 'taara'
+    },
+    {
+        id: 55,
+        name: 'Tõnn',
+        price: '***',
+        protection: '',
+        image: imageBeasts[54],
+        description: 'Tooni ehk Mana roll on elutähtsa tasakaalu hoidmine elu ja surma vahel.',
+        fulldescription: `Tõnn on Eesti mütoloogias viljakuse, heaolu ja looduse jumal, kes on seotud põllumajanduse ja aastaaegade tsüklitega. Ta on jumal, kellele palvetati, et tagada hea saak, viljakus, rahu ja rahulik elu. Tõnn on olnud tähtis tegelane eestlaste igapäevaelus, kuna põllumajandus ja viljakus olid neil ajaloos eluliselt olulised.
+        Välimus
+
+        Tõnni kujutatakse sageli kui tugevat ja jõulist meest, kes peegelduse kaudu kannab oma jumalikku rolli. Tõnni välimus on tavaliselt rahu ja tasakaalu kehastus. Ta on lopsakas, täidlase kehaga, sageli kujutatud värskete ja viljakate maadega. Tema nahk on soe, pruunikas, nagu päikese käes tööd tegeva talumehe oma, ja tema silmad on sageli rohelised või pruunid, andes edasi tema seost looduse ja viljakusega.
+
+        Tõnn kannab lihtsat, kuid jõulist rõivastust, mis on loodud loodusest ja aiatööst inspireeritud. Ta kannab pehmet rohelise või pruuni värvusega kasukat või riideid, mida on kaunistatud põllumajanduse ja looduse motiividega – näiteks viljapead, oksad ja puuõied. Tema kätes on sageli kas suur puust sarv, millega ta annab maale viljakust, või lõppematult täis korv, mis on täis vilja, viljaõied ja maapinna tooteid, mida ta inimeste heaks toob.
+        Tõnni kultus ja uskumused
+
+        Tõnni kummardamine ja austamine oli seotud viljakuse, saagikuse ja hea elu tagamisega. Inimesed uskusid, et Tõnn võib anda põllule head saaki ja viia viljatusse maasse elu. Tõnni rituaalid olid sageli seotud põllumajanduse tsüklitega – kevadisel ajal paluti teda andma viljakust ja soojust, sügisel paluti talle tänu saagi eest.
+
+        Tõnni kultus oli rahulik ja tasakaalustatud, kuna ta oli looduse ja viljakuse jumal, kes püüdis tasakaalu hoida. Tema kummardamine ei olnud kunagi seotud agressiivsete rituaalidega, vaid pigem rahu ja elu tagamisega. Palju rituaale viidi läbi talude ümber, kus talupidajad soovisid häid tulemusi oma põldudele ja koduhoovidesse.
+
+        Tõnni peeti ka kodu ja pereliikmete kaitsjaks. Tema kaitse all elati tihti rahus ja harmoonias, kuna tal oli võime tasakaalustada looduse ja inimeste elu, tagades igapäevaelu heaolu. Usuti, et Tõnn aitab hoida perede elatustaset ja tagab, et elu kestaks igal tasandil: looduses, põllul ja kodus.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Tõnn on mõnevõrra võrreldav teiste viljakuse ja maa jumalatega, näiteks soome Pellas ja teiste põhjamaade loodusekaitsjate ja viljakusejumalatega. Tõnn on enamasti rahumeelne ja tasakaalukas jumal, keda esindab loodus ja viljakus, kuid samas on tema jõud väga suur, kuna ta doktriin ulatub kõikjale, kus on elu ja viljakus.
+
+        Tõnn on suuresti seotud eluslooduse tsükliga ja tema maagia, mis puudutab vilja ja maapinda, on osa igapäevaelu harmoonilisest struktuurist.`,
+        slug: 'tõnn'
+    },
+    {
+        id: 56,
+        name: 'Vanemuine',
+        price: '***',
+        protection: '',
+        image: imageBeasts[55],
+        description: 'Tooni ehk Mana roll on elutähtsa tasakaalu hoidmine elu ja surma vahel.',
+        fulldescription: `Vanemuine on Eesti mütoloogias üks tähtsamaid jumalaid, eriti tuntud kui laulmise, muusika ja luule jumal. Ta on ka tarkuse, hariduse ja kunstide patroon, kellele omistatakse loodusjõudude ja inimkonna vaimse arengu suunamine. Vanemuine on sageli seotud ka maa viljakuse ja eluõnnega, kuna muusika ja laulud on seotud looduse rütmidega ja aitavad hoida tasakaalu.
+Välimus
+
+        Vanemuine kujutatakse tavaliselt kui kõrget ja väärikat vanemat meest, kellel on pikk, hall või valge habe ja rahu kiirgavad silmad. Tema silmad on sageli sinised või hallid, kajastades tema ühendust looduse ja universumi igavese tarkusega. Tema välimus on rahu ja tasakaalu kehastus, kuid samas on ta eriline võimekuses, kuna tema läbi elavad lood ja muusika muutuvad maagiliseks jõuks.
+
+        Vanemuine kannab sageli rikkaid, kuid samas lihtsaid riideid, mis peegelduvad looduse ja kunsti sümbioosis – tavaliselt mahedates toonides nagu roheline, hall ja kuldne. Tema riided on kaunistatud lillede, lehtede ja lindude mustritega, mis viitavad looduse elujõule. Tema käes on alati maagiline pill, mis on seotud tema võimekusega laulu ja muusika abil elusid mõjutada. Vanemuine mängib sageli kitarri, harfi või lüüra, mille heli mõjub rahustavalt ja tervendavalt.
+        Vanemuine kultus ja uskumused
+
+        Vanemuine kultus on tihedalt seotud muusika ja kunsti tähendusega rahva elus. Laulmine ja tantsimine olid igapäevaelu osa, eriti erilistel puhkudel nagu pidustustel, viljakuse rituaalides ja suvekohvikutes. Rahvas uskus, et Vanemuine toob elule rütmi ja tasakaalu, suunates inimesi õnnele ja viljakusele. Tema laulu jõud võis mõjutada loodust, muuta ilmaolusid ja luua elu edasiviivat tasakaalu.
+
+        Vanemuine ei olnud mitte ainult kunsti ja muusika jumal, vaid ka tarkuse ja elu õpetaja. Üks tema tähtsamaid ülesandeid oli õpetada inimesi looduse ja elu rütmi järgimist, et saavutada harmoonia looduse ja inimeste vahel. Ta on sageli seotud ka vanema ja tarkuse hoidjana, kelle õpetus ulatub läbi generatsioonide ja annab tugeva aluse järgmistele teadlikkuse ja elu tasanditele.
+        Vanemuine seosed teiste mütoloogiliste tegelastega
+
+        Vanemuine sarnaneb teiste kultuuride mütoloogiliste tegelastega, kes on seotud muusika ja loomingu jõududega. Ta on sageli võrreldav teiste looduse ja kunsti jumalatega, näiteks kreeka Apollo või skandinaavia Freyaga. Kuid Vanemuine on Eesti kultuuris väga eriline, kuna tema seos looduse ja igapäevaelu ning selle harmooniaga on sügavalt juurdunud rahva traditsioonides.
+
+        Vanemuises peegelduvad ka Eesti rahva väärtused, mis hindavad loodusmõistmist ja ühtsust elu ja kunstide vahel.`,
+        slug: 'vanemuine'
+    },
+    {
+        id: 57,
+        name: 'Tuulispask',
+        price: '***',
+        protection: '',
+        image: imageBeasts[56],
+        description: 'Tooni ehk Mana roll on elutähtsa tasakaalu hoidmine elu ja surma vahel.',
+        fulldescription: `Tuulispask on Eesti mütoloogias üks salapäraseid ja veidi hirmuäratavaid olendeid, keda seostatakse tuule ja äikesega. Ta on mõistetud kui tuulevaim, kes toob kaasa äikesetorme ja müristamist, kuid samas on ta ka seotud maa ja looduse vaheldumisega, pakkudes tasakaalu looduse jõudude vahel.
+Välimus
+
+        Tuulispask on keeruline ja salapärane tegelane, kes võib võtta erinevaid kujusid, mis peegelduvad tema olemuses kui loodusvaimu, kes on seotud pidevas liikumises oleva tuule ja tormide jõududega. Ta on tihti kujutatud kui kõrge ja õhuke olend, kelle kehast voolab tuuleke, justkui oleks ta osa maapinnast tõusnud torm. Tema keha on sageli ebamugavalt kumav, nagu udus või tuulekiirusest läbi imbuv kuju. Tema silmad on tavaliselt heledad, virvendavad nagu välk taevas.
+
+        Tuulispask ei ole kindlas vormis – tema välimus võib muutuda, kui ta liigub ja ringleb. Tihti kujutatakse teda kui tuulekeerise moodi olendit, millel pole kindlat keha, kuid samas on tema kohalolu tuntav läbi äikesepilvede, kiirguvate välkude ja keeristormide. Tema juuksed, kui neid on, on nagu vihmapiisad või tuuleiilid, mis keerlevad ja lainetavad kogu tema keha ümber. Ta võib kanda ka musta või tumeroheline rüü, millel on elementide jooned – tuule ja äikesemotiivid.
+        Tuulispask kultus ja uskumused
+
+        Tuulispask on seotud peamiselt tuule ja äikese vaimse jõududega. Eesti rahvas uskus, et Ta suudab muuta ilmastikku, tuua tormi või rahustada seda. Tihti seostatakse teda salapäraste ilmastikunähtustega – tuulispask käis, kui tekkis äikesetorm või ootamatu vihm, ja teda peeti tegelaseks, kes võib kummitama hakata või tuua hävingut, kui teda ei austatud.
+
+        Traditsioonides räägiti, et kui Tuulispask tuleb, tuleb olla ettevaatlik – tormide ja müristamisega kaasneb tema kohalolek, ning mõnikord võib ta tuua ka hävingu või äkilise, ootamatu ilmastiku muutuse, nagu tugeva tormi. Samas usuti ka, et teda saab rahustada ja tema jõudu tasakaalustada õige käitumise ja austusega looduse vastu.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Tuulispask meenutab mõnevõrra teiste põhjamaade mütoloogilisi tuulevaime või äikesegode, nagu soome Ilmarinen või skandinaavia Thor, kellel on seosed tuule, tormi ja äikesega. Kuigi Tuulispask on rohkem seotud kiirete ja muutuvate ilmastikunähtustega, on ta samamoodi seotud looduse ja taevaste jõududega, mis võivad tuua nii kasu kui ka hävingut. Tema loodusjõudude kontrollimine on olulise tähtsusega tasakaalu ja rahu tagamiseks.
+
+        Kuigi Tuulispask on tihti kurjem või hirmuäratav tegelane, on ta ka looduse ja tormide osa, mis on vajalik looduse tasakaalu hoidmiseks ja maapinna viljakuse tagamiseks.`,
+        slug: 'tuulispask'
+    },
+    {
+        id: 58,
+        name: 'Kuutar',
+        price: '***',
+        protection: '',
+        image: imageBeasts[57],
+        description: 'Kuu jumalanna, kellel on seos ajaga, öö ja loomade tsüklitega.',
+        fulldescription: `Kuutar on Eesti mütoloogias kuu jumalanna, kellel on oluline roll loodusjõudude ja tähtede liikumiste jälgimisel. Tema kultus on seotud kuu ja ööga, samuti ajaga, mis möödub kuu tsüklite järgi. Kuutar on sageli kujutatud salapärase ja kergelt müstilise olendina, kelle kohalolek seondub öö, valgustuse ja meeleolude muutumisega, mis on tihedalt seotud kuu faasidega.
+        Välimus
+
+        Kuutar on sageli kujutatud kui õrn ja salapärane naine, kelle välimus peegelduks igavese öö ja kuu harmoonias. Tema nahk on valge, peaaegu hõbedane, justkui peegelduks tema keha kuu peegelduse kaudu taevas. Tema juuksed võivad olla pikad, hõbedased või valged, nagu kuuvalgus, mis voolab tema ümber. Tihti on ta kujutatud hõbedaste või valgetest looduslike materjalidest valmistatud riietes, mis peegelduvad tema seosest öö ja külma, kuid samas pehme valgustusega maailmaga.
+
+        Kuutari silmad on tavaliselt helged ja kirglikud, meenutades kuu kiirgust. Tema silmad võivad olla hallid, sinised või isegi eredad nagu tähed, andes edasi müstilise ja kaugemal asuva elu tunnetuse. Tema keha on peen ja õrn, samas väljendab ta ka suuremat kohalolu, kuna ta on seotud maapealse ja taevaste jõududega.
+
+        Tihti on Kuutar seotud ka valgustuse ja varjude mänguga – tema kohalolek võib olla kas peegelduse või ähmastumise vormis, justkui varjus olev kuju, mis on pimedas helendav. Ta kannab sageli hõbedasi kaunistusi või kuu motiive oma riietuses – see võib olla lihtne pärlkaunistus või keerukam ehtedisain.
+        Kuutari kultus ja uskumused
+
+        Kuutari kultus on tihedalt seotud kuu ja ööga. Eesti rahvas uskus, et kuu faasid omavad suurt mõju inimesele, loodusele ja elu rütmidele. Kuutar oli kuu valitseja, kelle kohalolek ja mõju määrasid ööde kestuse ja valguse. Kuutari ja kuu tsüklite kaudu usuti, et inimeste elu saab tasakaalustada ja ajada, et need oleksid kooskõlas looduse ja taevaga.
+
+        Üks tähtsamaid aspekte, mida Kuutar ja kuu valitsesid, oli viljakus ja ajastamine. Öö ja kuu faasid seostusid põllunduse ja tööde tegemise ajastamisega, kuna teatud faasid olid soodsad külviks, saagi koristamiseks või ka armastuse ja pereliidu loomise hetkeks. Kuutariga seotud uskumused ulatusid sageli igapäevaelu tasandile – tema rütmide järgi toimusid olulised toimingud, nagu pulmamenetlused või viljakusrituaalid.
+
+        Samuti oli Kuutar seotud ka taevase armastuse ja ilmingute, nagu tähed ja öötaevas, eestkoste. Kuutari võimed ei olnud ainult seotud külmema ja salapärase ööga, vaid ka elu loomise ja unistuste saavutamisega.
+        Seosed teiste mütoloogiliste tegelastega
+
+        Kuutar on tihti võrreldav teiste põhjamaade ja maailma mütoloogiate kuu jumalannade ja taevavõimudega. Näiteks on soome Kuu, kreeka Selene ja rooma Luna sarnased tegelased, kes valitsesid kuu ja öö üle ning kellel oli oluline mõju inimeste elule ja loodusele. Kuutar, nagu need jumalannad, on seotud elu tsüklite ja maapealse tasakaalu tagamisega, andes elu rütmidele ja pühendades oma väe ööle ja sellele, mis jääb nähtamatuks või saladuslikuks.
+
+        Kuutar, nagu teised mütoloogilised kuuolendid, on ka midagi, mida tihti peeti ka ennustajaks või ka unistuste valitsejaks – öö on aeg, mil inimesed võivad unistada ja luua, mis võib olla seotud Kuutari maagilise ja salapärase olemusega.`,
+        slug: 'kuutar'
     },
 ];
