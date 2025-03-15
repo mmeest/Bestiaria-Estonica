@@ -1,4 +1,4 @@
-const imageBeasts = Array.from({ length: 57 }, (_, i) =>
+const imageBeasts = Array.from({ length: 72 }, (_, i) =>
     require(`./assets/images/${(i + 1).toString().padStart(3, '0')}.jpg`)
   );
 
@@ -1678,5 +1678,394 @@ Välimus
 
         Kuutar, nagu teised mütoloogilised kuuolendid, on ka midagi, mida tihti peeti ka ennustajaks või ka unistuste valitsejaks – öö on aeg, mil inimesed võivad unistada ja luua, mis võib olla seotud Kuutari maagilise ja salapärase olemusega.`,
         slug: 'kuutar'
+    },
+    {
+        id: 59,
+        name: 'Tõllakuivataja',
+        price: '***',
+        protection: '',
+        image: imageBeasts[58],
+        description: 'Tõllakuivatajaga varastab öösel hobuseid ja ajab nad väsinuks.',
+        fulldescription: `Tõllakuivataja on Eesti rahvapärimuses salapärane olend, kes on seotud hobuste väsitamise ja nende öiste seikluste või kannatustega. Tegemist on pigem vähemtuntud tegelasega, kelle kohta leidub erinevates piirkondades erinevaid lugusid.
+        Tõllakuivataja kirjeldus ja tegevus
+
+            Tõllakuivataja olevat nähtamatu või vaevumärgatav olend, kes hiilib öösiti tallidesse ja viib hobused salaja sõidule.
+            Hommikul leitakse hobused läbimärjad ja täiesti kurnatud, justkui oleks nendega terve öö ringi kihutatud.
+            Mõnes loos arvatakse, et Tõllakuivataja on kodukäija vaim või isegi kuradi saadik, kes hobuseid piinab.
+            Arvati, et tema vastu aitab hobuserauda meenutavate märkide joonistamine talli uksele või hõbeda asetamine hobuse lakka.
+
+        Seosed teiste mütoloogiliste olenditega
+
+            Öö ratsanikud ja näkivaimud – sarnaselt Skandinaavia ja Briti müütides leiduvatele kelpiedele või müstilistele ööhobustele on Tõllakuivataja seotud seletamatute öiste sündmustega.
+            Kodukäijad ja vaimolendid – mõnikord arvatakse, et Tõllakuivataja on vana hobusekasvataja hing, kes ei suuda oma eluajal armsaks saanud loomi rahule jätta.
+            Vanapagan või metsahaldjad – mõned lood seovad teda laiemate paganlike müütidega, kus metsavaimud ja kurjad jõud püüavad talumehi ja nende loomi väsitada.
+
+        Kuidas Tõllakuivatajast lahti saada?
+
+            Vanarahvas uskus, et raud ja hõbe kaitsevad hobuseid ning takistavad vaime neile ligi pääsemast.
+            Mõnikord riputati nõiutud amulette hobuse boksi või uste kohale.
+            Räägitakse ka, et Tõllakuivataja võis karta palveid ja pühitsetud vett, nii et talli õnnistamine võis aidata.`,
+        slug: 'tõllakuivataja'
+    },
+    {
+        id: 60,
+        name: 'Mardisandid ja Kadrisandid',
+        price: '***',
+        protection: '',
+        image: imageBeasts[59],
+        description: 'Tegelased ennekõike rahvakalendrist.',
+        fulldescription: `Mardisandid ja kadrisandid on eelkõige rahvakalendri pühade traditsioonid, mitte müstilised olendid Eesti mütoloogiast. Nad on seotud mardipäeva (10. november) ja kadripäeva (25. november) kombestikuga, kus maskeeritud inimesed käivad majast majja, laulavad, tantsivad ja soovivad peredele head õnne.
+
+        Siiski on nende taustas seoseid ka müstiliste ja usundiliste uskumustega:
+
+            Esivanemate hinged – On arvatud, et algselt võis mardisantide komme olla seotud esivanemate hingede austamisega. Mardipäev oli sügise lõpu ja talve alguse tähistamine, kus lahkunud hinged võisid tulla elavate maailma.
+            Viljakus- ja karjaõnne toojad – Mardisandid toovad peredele viljakuse- ja karjaõnne, mis viitab varasematele maagilistele uskumustele.
+            Poolmüstilised tegelased – Kuigi tänapäeval on sanditajad lihtsalt kostümeeritud inimesed, on vanades uskumustes vihjeid sellele, et nad võisid esindada üleminekuolendeid, kes kuuluvad osaliselt elavate ja osaliselt vaimude maailma.
+
+        Seega, kuigi mardisandid ja kadrisandid ei ole klassikalised mütoloogilised olendid nagu metsavana, kratt või näkk, on neil rahvapärimuses sügavad juured, mis ulatuvad usundilisse maailma.`,
+        slug: 'mardisandid_ja_kadrisandid'
+    },
+    {
+        id: 61,
+        name: 'Sohlik',
+        price: '***',
+        protection: '',
+        image: imageBeasts[60],
+        description: 'Karvane metsik olend.',
+        fulldescription: `Sohlik tõepoolest sageli võrreldud karu või karulikuga. Ta on väike, kuid samas tugev ja karvane olend, kelle välimus meenutab mingil määral metsloomadele, näiteks karule. Erinevates eesti rahvapärimustes on teda kujutatud kui karu meenutavat looma, kuid väiksemas vormis, olles mõnikord rohkem nagu suur, hall või must karvane elukas.
+
+        Kokkuvõttes on Sohlik seotud soode, metsade ja järvede aladega, kus ta liigub, ja sageli on tema välimus loomulikult ebatavaline. Samuti võib ta olla ka karvane, suurte küünistega ja tugev, justkui karu, kuid tema olemus on tavaliselt palju väiksem ja salapärasem.
+        
+                Sohlik on Eesti rahvustavas tuntud kui väike ja salapärane olend, kes elab sageli märgadel ja sooaladel, nagu sood, järvekohad või metsade ääred. Tema olemus on tihti seotud ebamugavustunde ja hirmuga, kuid samas võib ta olla ka veidi koomiline või rumal.
+        Välimus:
+
+            Suurus ja kehastus: Sohlik on tavaliselt väike ja kõhn, inimestest madalam, kuid tema välimus võib varieeruda sõltuvalt pajatatud looga. Mõned kirjeldused viitavad sellele, et ta võib olla umbes inimese suurune või veidi väiksem.
+
+            Nahk ja välimus: Sohlikul on sageli hall, roheline või mädane nahk, mis sobib tema elupaikadega – sood ja märjad alad. Tema keha on karm ja ebatavaline, mis muudab ta ebameeldivaks ja hirmuäratavaks. Tema nägu võib olla kortsus ja moonutatud.
+
+            Silmad: Sohliku silmad on tihti väga suured ja kõrvetavad või läikivad, nagu veekogust, peegelduvad hõbedase või rohelise värvusega.
+
+            Küünised ja käpad: Sohlikul on pikad küünised, mis annavad talle hirmsa välimuse ja tugeva seose looduse ja metsaga.
+
+        Kuna tegemist on rahvamuistendiga, ei ole tal kindlat kujutist, kuid tavaliselt on ta hirmuäratav, kuid samas mõnevõrra salapärane ja veidi naljakas tegelane, kelle kohalolu soodes ja metsades aitab inimesi hoiatada või õpetada. Sohlik võib ka olla tegelane, keda kasutatakse lapsepõlve hirmude, õpetuste või kohalike legendide puhul.`,
+        slug: 'sohlik'
+    },
+    {
+        id: 62,
+        name: 'Veehobune',
+        price: '***',
+        protection: '',
+        image: imageBeasts[61],
+        description: 'Veekogudes elav müstiline hobune.',
+        fulldescription: `Veehobune on Eesti mütoloogias tuntud kujutlusväärne olend, mis elab tavaliselt järvedes, jõgedes ja soodes. Seda peetakse tihti veepoolseteks vaimudeks või loodusolenditeks, kes suudavad oma välimust muuta ja on tihti seotud õnnetustega, mida nad võivad tekitada neile liiga lähedale sattunud inimestele. Veehobune on ohtlik tegelane, keda seostatakse vee jõududega ja kergesti ahvatleb ohvreid oma ratsutamisvõimekuse ja atraktiivsusega.
+        Veehobuse omadused ja omadused:
+
+            Välimus: Veehobune sarnaneb suurele, tugevale ja kauni välimusega hobusele, kuid sellel on alati midagi hirmutavat. Tavaliselt on see läikiv must või hall ning tema nahk võib olla niiske või veega kaetud, mis annab talle veekogult päritolu mulje. Kõige sagedamini kirjeldatakse teda sära või rohekas varjundiga, justkui oleks see veetaimestikuga kaetud.
+
+            Silmad: Veehobusel on sageli sügavad, kiirgavad silmad, mis on öösel erksad ja paistavad nagu kummitused. Need silmad on tihti nii atraktiivsed, et need kutsuvad oma ohvreid ligi, et nad saaksid oma kahtlusi ja hirme peita.
+
+            Habe ja saba: Tema saba ja habe on väga pikad, voolavad ning sageli vee või vetikatega kaetud. Kui ta liigub, võib see olla väga tasane ja justkui ajada kaasa vee liikumisjälgi.
+
+            Jalad: Veehobusel võivad olla muhvid, nagu tavalistel hobustel, kuid need võivad olla ka uimeda või õhukesed, mis aitavad tal liikumiseks kiiresti vee all liikumiseks kohanduda.
+
+            Kohutavad omadused: Üks peamisi mütoloogilisi uskumusi veehobuse kohta on, et ta on pettev olend, kes meelitab ohvreid oma ilusa välimuse ja sõbralikusega, et nad ratsutaksid tema seljas. Kui nad on liiga lähedal, tõmbab ta nad vette ja viib nad oma elupaika, kus nad võivad hukkuda.
+
+        Veehobune on mütoloogiline olend, kellel on keerukas seos looduslike jõududega, nagu vee elemendid ja looduslikud jõud. Eestis on ta väga tuntu just oma veekogude esindajana, ja teda nähakse sageli hirmu ja kauni välimuse vahelise tasakaalu olendina.`,
+        slug: 'veehobune'
+    },
+    {
+        id: 63,
+        name: 'Maanus',
+        price: '***',
+        protection: '',
+        image: imageBeasts[62],
+        description: 'Maa ja viljakuse jumal, samuti seotud talupidamise ja looduse viljakusega.',
+        fulldescription: `Maanus on mütoloogiline tegelane Eesti rahvapärimuses, kelle nimi on seotud sõnaga maa ning viitab tihedale seosele looduse, viljakuse ja maajõududega. Kuigi Maanus ei ole eesti folklooris nii laialt tuntud kui näiteks Vanapagan või metsavaimud, võib teda pidada üheks maavaimude või looduse kaitsevaimude kehastuseks.
+        Kes või mis on Maanus?
+
+        Maanust võib kujutada kui maa ja viljakuse vaimu, kes hoiab ja valvab põlde, metsi ning kogu looduse tasakaalu. Teda seostatakse sageli maaharimise, saagi kasvu ja looduse jõuga, mistõttu võib ta meenutada mõnes mõttes ka maajumalust või esivanemate hingede kehastust.
+        Välimus ja olemus
+
+        Maanus on sageli kirjeldatud kui võimsa, loodusest sündinud olendina:
+
+            Suur ja tugev – tema keha meenutab maa enda massiivsust, olles kaetud kas sambliku, rohu, mullapinnase või isegi puukoore taolise kestaga.
+            Pikad ja jämedad jäsemed – ta võib välja näha nagu aeglaselt liikuv, kivine ja juurtega läbipõimunud olend.
+            Silmad kui hõõguvad söed või päikesevalgus läbi lehtede – need annavad märku tema elujõust ja müstilisest tarkusest.
+            Metsiku looduse osa – mõnikord kujutatakse teda nii, et tema kehalt kasvavad väikesed taimed, seened või isegi väikesed puukesed.
+
+        Maanuse iseloom ja roll
+
+        Maanus ei ole tingimata kuri ega heatahtlik olend, vaid pigem looduse neutraalne jõud, kes võib olla nii abistav kui ka karm sõltuvalt inimeste tegudest:
+
+            Talle meeldib, kui loodust austatakse – inimesed, kes hoolitsevad maa eest ja kohtlevad seda lugupidavalt, võivad saada Maanuselt kaitset ja viljakaid põlde.
+            Karistab loodusreeglite rikkumist – kui inimesed hävitavad metsi, reostavad veekogusid või raiskavad ressursse, võib Maanus tuua ebaõnne, ikaldusi või isegi maavärinaid.
+            Tihedalt seotud esivanemate hingede ja maavaimudega – usuti, et maa sees ja metsades elavad hinged, kes jätkavad elamist looduse osana, ning Maanus võib olla nende kehastus või kaitsja.
+
+        Kus võib Maanust kohata?
+
+        Maanust arvatakse elavat sügaval metsades, hiites, vanadel põldudel või suurte kivide ja puude juures, mis kannavad endas iidseid jõude. Mõned rahvapärimused viitavad sellele, et ta võib ilmuda inimestele, kes otsivad looduse saladusi või vajavad kaitset rändamise ajal.`,
+        slug: 'maanus'
+    },
+    {
+        id: 64,
+        name: 'Jõudu',
+        price: '***',
+        protection: '',
+        image: imageBeasts[63],
+        description: 'Looduse ja elujõu jumal, seotud jõudude ja elujõududega looduses.',
+        fulldescription: `Jõudu on Eesti mütoloogias ja rahvapärimuses jõu, vastupidavuse ja füüsilise tugevuse kehastus. Kuigi tema kohta ei ole säilinud nii palju konkreetseid lugusid nagu näiteks Vanapagana või metsavaimude kohta, võib teda pidada loodusjõudude ning ürgse mehisuse ja elujõu sümboliks.
+        Kes või mis on Jõudu?
+
+        Jõudu esindab puhast füüsilist ja vaimset jõudu – ta on see, kes annab töötegijale rammu, sõdalasele vastupidavust ja matkajale jõudu rännakuks. Vanas eesti keeles kasutati sõna jõudu sageli kui õnnistust või head soovi, näiteks „Jõudu tööle!“, mis viitab sellele, et Jõudu oli midagi, mida sooviti ja kutsuti esile.
+
+        Jõudu ei pruugi olla iseseisev jumalus, vaid pigem abstraktne ja ürgne vägi, mis võib kehastuda tugevas ja sihikindlas inimeses või esineda loodusnähtustes, näiteks tormides, voolavas jões või murdmatutes kaljudes.
+        Välimus ja olemus
+
+        Kui Jõudu’d kujutada füüsilise olendina, võiks ta välja näha järgmine:
+
+            Massiivne ja lihaseline kuju – ta on hiiglaslik, tugeva kehaehitusega, justkui kivist või tammepuust voolitud.
+            Nahk nagu kivine maa või parkunud puukoor – tema keha võib olla kaetud mustritega, mis meenutavad metsade juuri või jõgede voogusid.
+            Silmad kui hõõguvad söed või välgusähvatused – need sümboliseerivad sisemist väge ja kindlameelsust.
+            Juuksed ja habe nagu tormipilved või metsik tuul – need võivad liikuda ja lainetada nagu loodus ise, andes edasi tema seotust loodusjõududega.
+            Teda ümbritseb vägi ja gravitasioonilaadne jõud – kui ta liigub, väriseb maa tema sammude all, ja kui ta tõstab käe, tunneb igaüks tema kohalolekut.
+
+        Iseloom ja roll
+
+        Jõudu pole tingimata hea ega kuri – ta on pigem neutraalne jõud, mida saab kasutada nii heaks kui halvaks:
+
+            Ta annab jõudu neile, kes seda väärivad – talupojad, sepistajad, sõdalased ja ausad töötegijad võivad saada temalt lisaenergiat ja vastupidavust.
+            Kuid ta ei talu nõrkust ega laiskust – kui keegi üritab jõudu ära kasutada ilma vaeva nägemata, võib Jõudu temalt väe võtta või tema katsumuseks saata raskusi.
+            Seotud loodusjõududega – teda võib tajuda tormide, rahe, tugeva tuule või kiirevooluliste jõgede kaudu, mis sümboliseerivad kontrollimatut jõudu.
+
+        Kus võib Jõudu’d kohata?
+
+        Jõudu pole olend, keda võib niisama metsas jalutades kohata, vaid pigem vägi, mida tajutakse ekstreemsetes olukordades:
+
+            Rasketel töödel ja pingutustes – näiteks kui talumees veab põllul kündes rasket adrat või sepp taob rauda, võib ta tajuda Jõudu’d enda ümber.
+            Tormides ja loodusnähtustes – tema kohalolek võib avalduda välgu ja mürina kaudu, kui torm võtab võimust.
+            Looduse ja kivi sees – ürgsed suured rändrahnud, võimsad metsad ja kiirevoolulised jõed on tema väe kehastused.
+
+        Jõudu kultuurilises tähenduses
+
+        Kuigi Jõudu’t kui müütilist olendit ei ole Eesti folklooris laialdaselt kirja pandud, on tema nimi jäänud meie keelde kui sügavalt juurdunud mõiste. Sõnad nagu "Jõudu tööle" või "Jõud ja ramm" viitavad sellele, et tema vägi oli kunagi midagi, mida inimesed soovisid ja austasid.
+
+        Jõudu on rohkem kui lihtsalt füüsiline jõud – see on ka vastupidavus, kindlameelsus ja loodusjõud, mis on osa igast eestlasest.`,
+        slug: 'jõudu'
+    },
+    {
+        id: 65,
+        name: 'Vanaisa',
+        price: '***',
+        protection: '',
+        image: imageBeasts[64],
+        description: 'Looduse vaim või kaitseolend, kes on seotud tarkuse, elu ja loodushoidmisega.',
+        fulldescription: `Vanaisa Eesti mütoloogias
+
+        Vanaisa on Eesti rahvapärimuses ja mütoloogias müstiline ning austatud tegelane, keda võib pidada esivanemate hingede, tarkuse ja looduse jõu kehastuseks. Ta ei ole otseselt jumal, vaid pigem esivanemate vaim, kellel on sügav seos elu, surma ja looduse tsüklitega.
+        Kes või mis on Vanaisa?
+
+            Kõikide esivanemate vaim ja tarkuse hoidja – Vanaisa esindab meie esivanemaid, kelle kogemused ja teadmised elavad edasi järgmistes põlvkondades.
+            Seotud loodusega ja vanade pühapaikadega – teda võib tajuda hiites, iidsete puude all ja kohtades, kus esivanemate hinged rändavad.
+            Võib ilmuda inimestele unenägudes või rasketel hetkedel – usuti, et kui inimene vajab juhatust, võib Vanaisa teda hoiatada või õpetada.
+
+        Välimus ja olemus
+
+        Vanaisa kujutatakse vanema, targa ja väärika olendina, kes kiirgab rahu ja aukartust äratavat kohalolekut:
+
+            Pikk, hall habe ja metsik, voogav juuksepahmakas – tema juuksed meenutavad samblast, puujuurtest või pilvedest tehtud struktuuri.
+            Kortsuline, kuid elujõuline nägu – ta on elanud läbi lugematuid ajastuid, kuid tema silmad helgivad tarkusest ja rahust.
+            Silmad nagu sügavad allikad või tähistaevas – need peegeldavad elu ja looduse sügavaid saladusi.
+            Riided tehtud looduslikest materjalidest – ta kannab vanu, loodusest pärit rõivaid, mis võivad olla valmistatud samblast, nahast, kanepikiust või karusnahast.
+            Ümbritsetud udust, valgusest või hõõguvatest sümbolitest – teda võib tajuda kui hägusat, ent võimast kohalolekut, mis ei allu tavapärasele füüsilisele maailmale.
+            Käes võib hoida saua või tammetohust kepikest – see sümboliseerib tarkust ja võimu looduse üle.
+
+        Iseloom ja roll mütoloogias
+
+        Vanaisa ei ole lihtsalt üksik olend, vaid pigem ürgne jõud, mis ühendab inimesi, loodust ja esivanemaid:
+
+            Tarkuse ja traditsioonide hoidja – ta kannab endas mineviku teadmisi ja võib õpetada neid, kes teda austavad.
+            Elu ja surma vahendaja – kuna ta on seotud esivanemate hingede maailmaga, võib ta aidata inimestel mõista elu ja surma tsüklit.
+            Kaitseb õiglast ja ausat inimest – need, kes elavad loodusega harmoonias ja austavad oma juuri, võivad saada temalt kaitset ja tuge.
+            Võib saata hoiatusi või unenägusid – inimesed, kes on eksinud oma teelt, võivad saada Vanaisalt sõnumeid unenägude kaudu.
+
+        Kus võib Vanaisa kohata?
+
+            Hiites ja pühades metsades – vanad tammed ja pühapaigad on tema kodu.
+            Unenägudes ja meditatsioonides – ta võib ilmuda inimestele, kes otsivad sügavamat mõistmist.
+            Pärimuslugudes ja vanasõnades – ta elab edasi rahvajuttudes, mida vanemad räägivad noorematele.
+            Looduse vaikuses ja tormides – mõnikord tajutakse tema kohalolekut tuules, vihmas või metsa mühas.
+
+        Vanaisa on austusväärne ja võimas olend, kes esindab minevikku, tarkust ja looduse igavest tsüklit. Ta ei ole lihtsalt vana mees, vaid terve esivanemate tarkus kehastatuna.`,
+        slug: 'vanaisa'
+    },
+    {
+        id: 66,
+        name: 'Hiievaim',
+        price: '***',
+        protection: '',
+        image: imageBeasts[65],
+        description: 'Hiied ehk püha metsad olid Eestimaal kõrgelt hinnatud, ja seal arvatakse elavat vaimude või jumalate kohalolek.',
+        fulldescription: `Hiievaimud – pühade hiite kaitsjad Eesti mütoloogias
+
+        Hiievaimud on Eesti mütoloogias ja rahvapärimuses püha hiie kaitsjad, loodusvaimud, kes hoiavad tasakaalu inimeste ja looduse vahel. Nad on pühade paikade – hiite, allikate, suurte puude ja kivide – valvurid ning võivad olla nii abivalmid kui ka karmid karistajad, sõltuvalt inimeste käitumisest.
+        Kes või mis on Hiievaimud?
+
+            Looduse kaitsjad ja pühade paikade valvurid – Hiievaimud tagavad, et inimesed suhtuksid loodusesse austusega.
+            Ei ole üheainsa kujuga olendid, vaid mitmepalgelised vaimud – nad võivad ilmneda erinevates vormides, olgu need nähtamatud energiad, loomakujulised vaimud või isegi vanade esivanemate hinged.
+            Seotud vanade uskumustega ja loodusjõududega – neid seostatakse põlisrahvaste loodususundiga, kus mets, kivid ja allikad olid pühad.
+
+        Välimus ja olemus
+
+        Hiievaimud võivad võtta erinevaid vorme, sõltuvalt sellest, millist loodusobjekti nad kaitsevad:
+
+            Udused ja valgusest helklevad olendid – mõned hiievaimud on nagu hämarad, vaevu tajutavad olendid, kes liiguvad metsas varjuna või helgivad kuuvalguses.
+            Loomakujulised vaimud – nad võivad ilmneda kotkana, hundina, maona või isegi hiiglasliku põdrana, sümboliseerides looduse väge.
+            Inimese sarnased, kuid üleloomulike joontega – nende silmad võivad olla sügavad ja teadmistega täidetud, juuksed meenutada puujuuri või samblikke ning nende kohalolek võib tunduda ebatavaliselt rahustav või vastupidi – hirmutav.
+            Silmad nagu hõõguvad söed või tähtede peegeldused – need viitavad sellele, et nad näevad rohkem kui tavalised olendid.
+            Riided või keha kaetud samblaga, seenetega või tammelehtedega – see sümboliseerib nende lahutamatut seotust metsaga.
+            Hääl võib olla kui tuule kohin või oja vulin – nad ei pruugi rääkida tavalises mõttes, vaid väljendada end loodushäälte kaudu.
+
+        Iseloom ja roll mütoloogias
+
+        Hiievaimud ei ole head ega kurjad – nad on tasakaalu hoidjad:
+
+            Premeerivad austust ja head käitumist – need, kes jätavad hiiesse ande või paluvad luba enne puu raiumist, võivad saada nende kaitse.
+            Karistavad neid, kes pühadust rikuvad – inimesed, kes reostavad hiit, raiuvad maha pühasid puid või häirivad sealset rahu, võivad kogeda kummalisi haigusi, õnnetusi või unenägudes hoiatavaid visioone.
+            Hoiavad ühendust esivanematega – arvatakse, et Hiievaimud on osaliselt esivanemate hinged, kes hoolitsevad oma järeltulijate ja nende elupaikade eest.
+            Võivad olla nähtamatud, kuid samas kõikjal – neid ei pruugi alati füüsiliselt tajuda, kuid nad on alati kohal ja jälgivad, kuidas inimesed hiie vastu käituvad.
+
+        Kus võib Hiievaime kohata?
+
+            Pühades hiites ja metsades – eriti vanade tammede, pärnade või teiste püha puude läheduses.
+            Allikate ja jõgede ääres – vanades uskumustes arvati, et allikates elavad vaimud, kes võivad jagada tervendavat väge või hoiatada rikkumiste eest.
+            Hiidkivide juures – suured rändrahnud peidavad endas vaime, kellelt võib küsida tarkust või kaitset.
+            Öösiti ja udusel ajal – nad on kõige aktiivsemad hämarikus, kui piir meie maailma ja vaimumaailma vahel on õhem.
+
+        Seos tänapäevaga
+
+        Kuigi Hiievaimude kultus pole enam nii tugev kui vanasti, elab nende mõiste edasi inimeste lugudes, looduse pühaduses ja austuses metsade ning vanade paikade vastu. Tänapäeval võiks neid näha kui looduskaitse sümboleid – vaime, kes kutsuvad inimesi üles hoidma meie metsi ja pühasid paiku.
+
+        Hiievaimud on müstilised ja võimsad olendid, kelle kohalolu tunnetatakse pigem hingeliselt kui füüsiliselt. Nad on Eesti loodusmütoloogia lahutamatu osa, sümboliseerides esivanemate tarkust ja looduse pühalikkust.`,
+        slug: 'hiievaim'
+    },
+    {
+        id: 67,
+        name: 'Härjapõlvlased',
+        price: '***',
+        protection: '',
+        image: imageBeasts[66],
+        description: 'Härjapõlvlased on Eesti rahvapärimuses väikest kasvu mütoloogilised olendid, kes elavad maa all.',
+        fulldescription: `Härjapõlvlased on Eesti rahvapärimuses väikest kasvu mütoloogilised olendid, kes elavad maa all, koobastes või metsikutes paikades. Nad on tuntud oma kavaluse, osavate käte ja maagiliste võimete poolest.
+        Härjapõlvlaste omadused ja kirjeldus
+
+        🔹 Välimus
+        Härjapõlvlased on väikest kasvu mehikesed, sageli vaid paari jala kõrgused (umbes lapse suurused). Neid kujutatakse karvaste, turskete ja kortsuliste mehikestena, kellel on pikad habemed ja teravad silmad. Sageli kannavad nad maa- ja metsa värvides riideid, mis aitavad neil looduses märkamatuks jääda. Mõnel pärimuse variandil on neil koonusekujuline kübar või nahast kapuuts.
+
+        🔹 Elupaik
+        Härjapõlvlased elavad maa all, kivide ja mägede sees või sügavates metsades, kuhu inimesed harva satuvad. Nad on seotud salapäraste käikude, koobaste ja peidetud aaretega.
+
+        🔹 Iseloom ja võimed
+
+            Osavad meistrid – Härjapõlvlased on eriti osavad sepistamises ja ehitamises. Nad oskavad valmistada maagilisi tööriistu, ehitada kivist hooneid ning valmistada väga vastupidavaid relvi ja esemeid.
+            Kavalad ja trikimehed – Nad ei ole tingimata pahatahtlikud, kuid võivad inimesi tüssata või karistada, kui neid halvasti koheldakse. Nad naudivad väikeseid vimkasid ja nippe, eriti kui inimene on liiga uhke või ahne.
+            Maa ja looduse vaimud – Härjapõlvlased on seotud maa ja selle varandustega. Mõned lood räägivad, et nad valvavad peidetud aardeid või maagilisi esemeid, mille leidmiseks peab teadma salajasi loitse või olema õigel ajal õiges kohas.
+
+        Härjapõlvlased Eesti rahvajuttudes
+
+        📖 Härjapõlvlase aare
+        Ühes loos leidis talupoeg juhuslikult salajase ukse mäe sees, mis viis härjapõlvlaste varakambrisse. Kui ta lahkus, kingiti talle kullast mündid, kuid hoiatati, et ta ei tohi kellelegi rääkida. Kui ta oma saagist uhkelt rääkima hakkas, kadus kogu aare järgmisel hommikul jäljetult.
+
+        📖 Härjapõlvlane ja mölder
+        Teises loos oli mölder, kes sõlmis lepingu härjapõlvlasega, et viimane aitab tal veskit ehitada. Kui veski valmis sai, nõudis härjapõlvlane tasuks möldri hinge. Möldril õnnestus aga härjapõlvlane nutikusega üle kavaldada ja oma hinge päästa.
+
+        📖 Härjapõlvlaste öine töö
+        Mõnes loos räägitakse, et härjapõlvlased aitavad töökaid inimesi, kuid ainult siis, kui neile ei vaadata otsa ega tänata. Kui keegi neid tööhoos näeb, kaovad nad igaveseks.
+        Seosed teiste mütoloogiliste olenditega
+
+        🔸 Soome ja Karjala mütoloogias on sarnased olendid nimega maahised, kes on samuti maa-alused vaimud ja käsitööoskajad.
+        🔸 Germaani ja Skandinaavia mütoloogias on härjapõlvlastel sarnasusi päkapikkude (dvergr) ja trollidega, kes elavad mägede ja kivide sees.
+        🔸 Eesti mütoloogias on härjapõlvlasi mõnikord segatud vanapaganatega, kes on samuti kohati lihtsameelsed, kuid füüsiliselt tugevad olendid.
+        Härjapõlvlased tänapäeval
+
+        Kuigi härjapõlvlased on eelkõige rahvapärimuse tegelased, on nad leidnud koha ka eesti kirjanduses, kunstis ja popkultuuris. Mõnes tänapäevases muinasjutus või fantaasialoos kujutatakse neid sõbralike, kuid salapäraste tegelastena, kes aitavad loodust hoida või aardeid valvata.`,
+        slug: 'härjapõlvlased'
+    },
+    {
+        id: 68,
+        name: 'Maaema',
+        price: '***',
+        protection: '',
+        image: imageBeasts[67],
+        description: 'Maaema esindab mütoloogias loodusjõude.',
+        fulldescription: `Maaema on Eesti folklooris ja rahvapärimustes sageli esinev mütoloogiline tegelane, keda võib pidada loodusjõudude, viljakuse ja ema maaga seostatavaks olendiks. Tema kuju ja tähendus varieerub erinevates kultuurides, kuid Eestis on Maaema sageli seotud looduslike tsüklite, maa viljakuse ja looduse elujõulisusega. Maaema kujutatakse tihti kui suurepärast emafiguuri, kes hoolitseb kõigi elusolendite eest ja tagab looduse tasakaalu.
+
+        Mõnedes lugudes on Maaema kujutatud kui iga elu aluse, viljakuse ja eluandja, kes toidab oma lapsi, sealhulgas taimi ja loomi, samas kui teistes lugudes võib ta esindada ka mõningaid tumedamaid külgi, nagu surma või hävingu esindamine talve ja külma läbi.
+
+        Maaema tihti seostatakse ka teiste looduse tegelastega, nagu metsaema ja veeamet, ja on osa laiemast looduse vaimude süsteemist, kes hoolitsevad tasakaalu ja elu kestvuse eest maailmas.`,
+        slug: 'maaema'
+    },
+    {
+        id: 69,
+        name: 'Tooru',
+        price: '***',
+        protection: '',
+        image: imageBeasts[68],
+        description: 'Tormi ja vihmade jumal.',
+        fulldescription: `Tooru on Eesti rahvapärimuses üks olulisemaid jumalusi ja looduse vaime, kes esindab tugevat ja võimast isikut. Tooru, keda mõnes piirkonnas tuntakse ka kui "Toore", on tihti seotud jõe, vihma ja tormide jumalana. Tema järgi on nime saanud ka tugev tuul ja äikeseilma ilmingud. Tooru on olnud keskne tegelane eelkõige talupoegade seas, kuna tema võimu usuti olevat suurenenud tormi ja äikesega seotud ilmastikunähtustes.
+
+        Müüdistiku järgi on Tooru tugev ja võimas, sageli kehastatud füüsilise jõu ja julge isiksusena. Ta on seotud looduse, eriti tormide ja vihmadega, mille kaudu tema jõud ja viha manifesteeruvad. Üks Tooru tähtsamaid omadusi on tema võime kontrollida äikese- ja tormituuli, mis võivad olla nii elu andvad kui ka hävitavad.
+
+        Rahvapärimustes on Tooru sageli kujutatud kui karjase või sõdalasena, kellel on suur jõud ja kontroll looduse üle. Tema kuju on võrreldav teiste kultuuride äikesjumalatega, kuid Tooru spetsiifiliselt eestikeelses mütoloogias on loodud tugeva seosega looduse ägedate ja vahelduvate ilmingutega.
+
+        Tooru on üks neid jumalusi, kelle kultus on seotud looduse pideva tasakaalu ja hävituse vahelise dünaamikaga. Tal oli oluline roll ka talupoegade igapäevaelus, kuna äike ja tormid mõjutasid otseselt põllumajandust ja karjakasvatust.`,
+        slug: 'tooru'
+    },
+    {
+        id: 70,
+        name: 'Äiö',
+        price: '***',
+        protection: '',
+        image: imageBeasts[69],
+        description: 'Viljakusega seotud jumalus.',
+        fulldescription: `Äio on Eesti rahvapärimuses üks olulisemaid ja arhailisemaid jumalusi, keda peetakse sageli loodusjõudude ja viljakuse tegelaseks. Äio on olnud väga tähtis jumal talupoegade seas, kuna teda on peetud kaitsjaks ja elu allikaks, mis seondus põllumajanduse, karjakasvatuse ja viljakusega. Tema kuju ja tähendus on seotud sageli looduse viljakusperioodide ja maa toimetulekuga.
+
+        Mõnedes lugudes kujutatakse Äiot kui tugevat ja soliidset figuuri, kellel on võim looduse üle, kuid kes samas kaitseb inimesi ja loomade heaolu eest. Tema kohta on mitmeid mütoloogilisi lugusid, kus ta esindab looduse viljakusjõude, ja teda on tihti tuntud ka kui viljakuse ja elu andjat.
+
+        Eesti rahvapärimustes esineb Äio tihti koos teiste looduse vaimude ja jumalustega. Samuti on teda peetud külma ja talve jagajaks, kuid erinevalt teistest talvistest looduse vaimudest, nagu näiteks Hundi- ja Karuema, ei ole Äio ainult külma ega tormi isik, vaid tema roll on rohkem seotud tasakaalu ja viljakuse tagamisega.
+
+        Äio jumaluse koha määramine ja tähtsus on tihti seotud viljakus- ja koristusrituaalidega, mis olid seotud looduse ja taluelu tsüklitega. Talupoegade seas usuti, et Äio kaudu saab inimeste elu ja saagikus olla edukas, ja teda paluti sageli hea saagi või soodsa ilma eest.`,
+        slug: 'äiö'
+    },
+    {
+        id: 71,
+        name: 'Vanetooni',
+        price: '***',
+        protection: '',
+        image: imageBeasts[70],
+        description: 'Taluelu kaitse jumalus.',
+        fulldescription: `Vanetoon on Eesti rahvapärimustes ja mütoloogias tegelane, keda on sageli seostatakse looduse ja saagi ning taluelu kaitsjana. Vanetoon on üks vanemaid ja tuntumaid jumalusi, kellel on kindel koht mitmesugustes rahvapärimustes ja looduse vaimude süsteemides. Tema tegelaskuju on mitmekihiline ning erinevates piirkondades võib tema roll varieeruda, kuid üldiselt seostatakse teda looduse elu ja viljakusega.
+
+        Vanetooni peetakse sageli üheks viljakuse, kodu ja pereliikmete kaitsjaks. Mütoloogia järgi kaitseb ta talupoegade elu ja kodu, pakkudes neile saaki ja tuge talutöödelt. Samuti on Vanetoon seotud loomade ja koduloomade heaolu, pakkudes neile kaitset haiguse ja õnnetuste eest. Tema roll on omamoodi tasakaalu hoidmine looduse ja inimeste vahel.
+
+        Erilised lood ja uskumused Vanetoonist räägivad tema seostest loodusnähtustega, nagu vihm, päike ja külm. Ta on samasugune looduse tasakaalu kaitsja nagu teisedki muinasjumalad, kuid keskendub oma tähelepanu enamalt jaolt inimeste igapäevaelu viljakusele ja loodusjõudude kontrollimisele. Seda saab mõista läbi talutööd, kodumajapidamise ja loomade kaitsmise kaudu.
+
+        Vanetooni kultus oli seotud paljude erinevate igapäevaelu aspektidega. Eriti tähtis oli ta talude õitsengule ja pere heaolule. Samuti võib teda kohata paljudes mütoloogilistes lugudes, kus ta toob esile elu ja surelikkuse seose looduses. Seda on usutud näiteks sellele, et Vanetoon annab elu kõigile, kes maad harivad ja koduloomade eest hoolitsevad.`,
+        slug: 'vanetooni'
+    },
+    {
+        id: 72,
+        name: 'Ilo',
+        price: '***',
+        protection: '',
+        image: imageBeasts[71],
+        description: 'Looduse tasakaalu hoidev jumalus.',
+        fulldescription: `Ilo on Eesti rahvapärimuses ja mütoloogias jumal, kellel on tihti seos viljakuse, elu ja looduse tasakaalu hoidmisega. Ilo on loodud oma pärandiks ja kohalolekuks igapäevaelus, olles seotud taluelu, loomade heaolu ja maaviljeluse tsüklitega. Tema kuju on mitmekihiline ja teda seostatakse sageli looduse kerguse ja tasakaalu tagajaks.
+
+        Ilo on pigem vähem tuntud kui mõnede teiste jumaluste kujutised, kuid tema tähtsus on olnud kohal talude ja looduse kaudu. Ilo on jumal, kellel on seos talupidamise ja igapäevaelu viljakusega. Mütoloogia järgi on Ilo jumal, kellele palvetatakse hea saagi ja loomade tervise eest. Samuti usuti, et tema kaudu tulevad looduse tasakaalu ja rahu hetked.
+
+        Erilised lood räägivad Ilost kui rahu ja heaolu toojast. Ta ei ole mitte ainult üksik jumalus, vaid tema kuju on seotud tervikuna looduse tasakaalu hoidmisega. Ilo peeti jumalaks, kelle kaudu inimesed said looduse jooksvatest muutustest ja igapäevaelu elementidest tasakaalu ja harmooniat. Tema täpsem kultus ja seosed on varieerunud erinevates piirkondades, kuid enamasti peeti teda lihtsa elu viljakuse ja maaviljeluse tagajana.
+
+        Üldiselt võib öelda, et Ilo on pigem heasüdamlik ja rahulik tegelane, kes hoiab tasakaalu elu ja looduse vahel. Ta ei pruugi olla sama tuntud nagu mõned teised mütoloogilised tegelased, kuid tema tähtsus on olnud kindel seos igapäevaelu viljakusega.`,
+        slug: 'ilo'
     },
 ];
