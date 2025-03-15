@@ -4,6 +4,11 @@
   </p>
 </div>
 
+Open site in Github Pages:
+
+https://mmeest.github.io/Bestiaria-Estonica/
+
+
 
 # Getting Started with Create React App
 
